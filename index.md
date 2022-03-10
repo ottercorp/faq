@@ -27,11 +27,11 @@
 
 <div>
   
-<a href="https://goatcorp.github.io/faq/xl_troubleshooting" class="btnm">卫月框架相关帮助</a>
+<a href="https://ottercorp.github.io/faq/xl_troubleshooting" class="btnm">卫月框架相关帮助</a>
 
-<a href="https://goatcorp.github.io/faq/dalamud_troubleshooting" class="btnm">插件使用相关帮助</a>
+<a href="https://ottercorp.github.io/faq/dalamud_troubleshooting" class="btnm">插件使用相关帮助</a>
 
-<a href="https://goatcorp.github.io/faq/development" class="btnm">插件开发相关帮助</a>
+<a href="https://ottercorp.github.io/faq/development" class="btnm">插件开发相关帮助</a>
   
 <!-- <a href="https://goatcorp.github.io/faq/mobile_otp" class="btnm">Authenticator App Guide</a> -->
 
