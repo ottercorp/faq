@@ -21,19 +21,19 @@
 </style>
 
 <div style="text-align: center;">
-Please select a category from below:
+请选择下列帮助类别:
 <br>
 <br>
 
 <div>
   
-<a href="https://goatcorp.github.io/faq/xl_troubleshooting" class="btnm">Help for XIVLauncher</a>
+<a href="https://goatcorp.github.io/faq/xl_troubleshooting" class="btnm">卫月框架相关帮助</a>
 
-<a href="https://goatcorp.github.io/faq/dalamud_troubleshooting" class="btnm">Help for plugins</a>
+<a href="https://goatcorp.github.io/faq/dalamud_troubleshooting" class="btnm">插件使用相关帮助</a>
 
-<a href="https://goatcorp.github.io/faq/development" class="btnm">Help for plugin developers</a>
+<a href="https://goatcorp.github.io/faq/development" class="btnm">插件开发相关帮助</a>
   
-<a href="https://goatcorp.github.io/faq/mobile_otp" class="btnm">Authenticator App Guide</a>
+<!-- <a href="https://goatcorp.github.io/faq/mobile_otp" class="btnm">Authenticator App Guide</a> -->
 
 </div>
 </div>
@@ -42,5 +42,7 @@ Please select a category from below:
 <br>
 
 <div>
-If you cannot find what you're looking for, please join our <a href="https://discord.gg/3NMcUV5">Discord server</a> and ask in your support channels. We'd love to help!
+如果您找不到正在寻找的内容，请加入我们的 <a href="https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=CZtWN&from=181074&biz=ka&shareSource=5">QQ频道</a> 或 <a href="https://jq.qq.com/?_wv=1027&k=f3cUajin">QQ群</a> 寻求帮助。
+本项目为国际服同项目的国服支持版，如有国际服相关问题请前往 <a href="https://discord.gg/3NMcUV5">Discord</a> 询问。
+无论在哪里，我们都欢迎提问并乐意帮助！
 </div>
