@@ -7,10 +7,10 @@ PS. 下文中的羊圈与獭圈即是 goatcorp 与 ottercorp 的组织昵称。
 
 ## OtterCorp 组织成员
 
-- [@Bluefissure](https://github.com/Bluefissure): 水獭爱好者，獭獭机器人作者，獭圈老大。
-- [@Dale#1707](https://discord.gg/3NMcUV5)：羊圈中拥有莫古力头像的可爱老哥，谁不喜欢一个在跳舞的可爱Kupo吉祥物呢。
+- [@Bluefissure](https://github.com/Bluefissure)：水獭爱好者，国服卫月维护者，獭獭机器人作者，獭圈老大。
+- [@Dale#1707](https://discord.gg/3NMcUV5)：羊圈中拥有莫古力头像的可爱老哥，谁不会喜欢一个会跳舞的可爱Kupo吉祥物呢？
 
-其他成员在得到本人同意后会在此处继续添加
+其他成员在得到本人同意后会在此处继续添加，或者也可以直接 [加入我们](https://jq.qq.com/?_wv=1027&k=3un8iHCo)。
 
 ## GoatCorp 组织成员
 
