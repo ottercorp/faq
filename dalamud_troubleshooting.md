@@ -1,7 +1,8 @@
 # Dalamud FAQ
 
 ### 目录
-[如何安装/启用插件？](#q-how-do-i-installenable-plugins) <br> [如何启用插件测试版本？](#q-how-do-i-enable-plugin-test-builds) <br> [\的命令是什么？>?](#q-what-is-the-command-for-insert-plugin-here) <br> [不要指望 Dalamud/Plugin 在游戏更新日发布更新](#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br> [在尝试安装/更新/禁用插件时收到错误消息](#q-i-get-an-error-message-when-trying-to-installupdatedisable-a-plugin) <br> [Reshade 及其变体不起作用或 Dalamud UI 失败](#q-reshade-and-its-variants-dont-work-or-dalamud-ui-fails) <br> [如何修复依赖 Dalamud 提供的opcode的插件？](#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes) <br> [过时的插件列表](#q-outdated-plugins-list) <br> [我的所有插件基本停止工作](#q-all-my-plugins-basically-stopped-working) <br> [只要游戏更新，无论更新大小都可以导致插件无法正常工作](#q-remember-the-patches-no-matter-how-small-can-break-plugins) <br> [如何重置 dalamud/plugin 窗口位置？](#q-how-do-i-reset-dalamudplugin-window-locations) <br>
+[Toc]
+
 <hr />
 
 ### Q：如何安装/启用插件？
@@ -21,7 +22,7 @@
 
 <hr />
 
-### Q: \的命令是什么？
+### Q:  \的命令是什么？
 虽然某些插件会从插件安装窗口列出它们的命令，但使用 `/xlhelp` 列出它们的命令和描述。
 
 您也可以查看 [插件库](https://github.com/goatcorp/DalamudPlugins/wiki/Plugin-Gallery) 来查看是否有一些快速文档，或者查看插件的repo 以获取阅读信息。
@@ -97,6 +98,6 @@
 FAQ content
 <hr>
 ```
-Then add it to the Table of Contents using `[Name / Title here](#anchor here) <br>`
+然后使用“[Name/Title here]（#anchor here）将其添加到目录中<br>
 
 [返回到顶部](#table-of-contents)<br> [返回主页](https://goatcorp.github.io/faq)
