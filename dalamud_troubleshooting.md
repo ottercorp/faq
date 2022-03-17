@@ -1,131 +1,97 @@
 # Dalamud FAQ
 
-### Table of Contents
-[How do I install/enable plugins?](#q-how-do-i-installenable-plugins) <br>
-[How do I enable plugin test builds?](#q-how-do-i-enable-plugin-test-builds) <br>
-[What is the command for \<insert plugin here\>?](#q-what-is-the-command-for-insert-plugin-here) <br>
-[How do I turn Dalamud Staging on or off?](#q-how-do-i-turn-dalamud-staging-on-or-off) <br>
-[Do not expect XL/Dalamud/Plugin updates on patch day releases](#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br>
-[I get an error message when trying to install/update/disable a plugin](#q-i-get-an-error-message-when-trying-to-installupdatedisable-a-plugin) <br>
-[Reshade and its variants don't work or Dalamud UI fails](#q-reshade-and-its-variants-dont-work-or-dalamud-ui-fails) <br>
-[How do I fix plugins that rely on Dalamud provided opcodes?](#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes) <br>
-[Outdated Plugins List](#q-outdated-plugins-list) <br>
-[All my plugins basically stopped working](#q-all-my-plugins-basically-stopped-working) <br>
-[Remember the patches, no matter how small, can break plugins](#q-remember-the-patches-no-matter-how-small-can-break-plugins) <br>
-[How do I reset dalamud/plugin window locations?](#q-how-do-i-reset-dalamudplugin-window-locations) <br>
-<hr>
+### 目录
+[如何安装/启用插件？](#q-how-do-i-installenable-plugins) <br> [如何启用插件测试版本？](#q-how-do-i-enable-plugin-test-builds) <br> [\的命令是什么？>?](#q-what-is-the-command-for-insert-plugin-here) <br> [不要指望 Dalamud/Plugin 在游戏更新日发布更新](#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br> [在尝试安装/更新/禁用插件时收到错误消息](#q-i-get-an-error-message-when-trying-to-installupdatedisable-a-plugin) <br> [Reshade 及其变体不起作用或 Dalamud UI 失败](#q-reshade-and-its-variants-dont-work-or-dalamud-ui-fails) <br> [如何修复依赖 Dalamud 提供的opcode的插件？](#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes) <br> [过时的插件列表](#q-outdated-plugins-list) <br> [我的所有插件基本停止工作](#q-all-my-plugins-basically-stopped-working) <br> [只要游戏更新，无论更新大小都可以导致插件无法正常工作](#q-remember-the-patches-no-matter-how-small-can-break-plugins) <br> [如何重置 dalamud/plugin 窗口位置？](#q-how-do-i-reset-dalamudplugin-window-locations) <br>
+<hr />
 
-### Q: How do I install/enable plugins?
-Not sure how to install plugins? Just type `/xlplugins` in-game after you see that the in-game hook has loaded.
+### Q：如何安装/启用插件？
+不知道如何安装插件？ 只需在你看到游戏中的已加载信息后后键入 `/xlplugins`。
 
-<hr>
+<hr />
 
-### Q: How do I enable plugin test builds?
-1. Type `/xlsettings` in game.
-2. Go to the `Experimental` tab
-3. Click the checkbox for `Get plugin testing builds`
-4. Click `Save` / `Save and Close`
+### Q：如何启用插件测试版本？
+1. 在游戏中输入 `/xlsetting`。
+2. 转到 `实验性` 标签
+3. 点击 `获取插件测试版本`
+4. 点击 `保存` / `保存并关闭`
 
-**Please note that testing plugins can/will have bugs and may change dramatically before final release. Especially on newer plugins, they could crash your game. **
+**请注意，测试插件可能会有bug，并且在最终发布之前可能会发生巨大的变化。 尤其是在较新的插件上，它们可能会导致游戏崩溃。 **
 
-For troubleshooting, please keep questions/comments/issues in the [plugin-testing](https://discord.com/channels/581875019861328007/719513457988337724) channel on our discord server..
+如需疑难解答，请将问题/评论/问题保留在我们 discord 服务器上的 [plugin-testing](https://discord.com/channels/581875019861328007/719513457988337724) 频道中。
 
-<hr>
+<hr />
 
-### Q: What is the command for \<insert plugin here\>?
-While some plugins will list their command from the plugin install window, use `/xlhelp` to list their command and description.
+### Q: \的命令是什么？
+虽然某些插件会从插件安装窗口列出它们的命令，但使用 `/xlhelp` 列出它们的命令和描述。
 
-You can also check out the [Plugin Gallery](https://github.com/goatcorp/DalamudPlugins/wiki/Plugin-Gallery) to see if there's some quick documentation, or check the plugin's repo for a readme.
-<hr>
+您也可以查看 [插件库](https://github.com/goatcorp/DalamudPlugins/wiki/Plugin-Gallery) 来查看是否有一些快速文档，或者查看插件的repo 以获取阅读信息。
+<hr />
 
-### Q: How do I turn Dalamud Staging on or off?
-#### In game (if you can still launch)
-1. Type `/xldev` in game.
-2. Click on the Dalamud menu on the top of the screen.
-3. Select/Unselect the settings as wanted.
-4. Relaunch the game
+### Q：不要指望 Dalamud/Plugin 在游戏更新日发布更新。
 
-#### Out of game (when you get crashes)
-1. Close the game
-2. Go to `%appdata%\XIVLauncher\` and open `dalamudConfig.json` in your text editor of choice
-3. Change the line that says `"DalamudBetaKey":` to `"BETAKEYHERE"` to enable Dalamud Staging and to **null** (no quotes) to disabled Dalamud Staging.
-4. Save
-5. Launch the game. NOTE: You may have to wait for Dalamud to be redownloaded.
+请记住，许多开发人员都有学校/工作/两者兼而有之，并且生活在不同的时区。 可能随时会更新 “XL可以随时消失”的概念仍然存在。（删除）
+<hr />
 
-* Only enable this if you absolutely need to. It is primarily for developers, not users. Plugin testers should only use it when specifically stated. You should expect to encounter issues and crash more often on staging builds. __Use with caution.__
-* NOTE: You should replace the `BETAKEYHERE` entry with a real beta key. **It requires the quotes**.
-* NOTE 2: Make sure there are no quotes if setting DalamudBetaKey to null
-<hr>
+### Q：在尝试安装/更新/禁用插件时收到错误消息
+请向我们提供更多的信息，以便我们能够帮助解答为什么会发生这种情况。
 
-### Q: Do not expect XL/Dalamud/Plugin updates on patch day releases.
+1. 哪个插件？
+2. 先前的版本是否起作用，您是否知道它是什么版本？
+3. 是否删除插件并尝试重新安装能否工作？
+4. 您可以提供您的 dalamud.txt 文件吗？ 
+<hr />
 
-Please remember that many of the developers have school/jobs/both and live across a variety of time zones. Things will be updated when they can be. The notion that "XL could be gone at any time" still exists.
-<hr>
+### Q：Reshade 及其变体不起作用或 Dalamud UI 失败
+1. 转到 `<your game installation folder>\FINAL FANTASY XIV\game`
+2. 确保游戏已关闭
+3. 如果有一个名为`d3d11.dll`或`dinput8.dll`的文件**重命名**为`dxgi.dll`
+4. 重新启动
 
-### Q: I get an error message when trying to install/update/disable a plugin
-Please give us more information so we can help troubleshoot why this is happening to you.
+如果这不起作用，请在我们的 Discord 服务器上联系我们。
 
-1. Which plugin is it?
-2. Did a previous version work and do you know what version it was?
-3. Does deleting the plugin and trying a fresh install work?
-4. Can you please provide your dalamud.txt file?
-<hr>
+<hr />
 
-### Q: Reshade and its variants don't work or Dalamud UI fails
-1. Go to `<your game installation folder>\FINAL FANTASY XIV - A Realm Reborn\game`
-2. Make sure the game is closed
-3. If there is a file called `d3d11.dll` or `dinput8.dll` **rename it** to `dxgi.dll`
-4. Relaunch.
+### Q：如何修复依赖 Dalamud 提供的操作码的插件？
+某些插件和功能(Universalis 更新、PennyPincher 等) 需要了解 FFXIV 客户端的当前opcode。 这些会更改每个补丁，有时可能需要更多时间才能在新补丁的 Dalamud 更新准备好之前进行整理。
 
-If this doesn't help, please contact us in our Discord server.
+如果您需要在更新后刷新您的opcode 信息，请重新启动游戏。 Dalamud 将在启动时检查更新的定义。
 
-<hr>
+<hr />
 
-### Q: How do I fix plugins that rely on Dalamud provided opcodes?
-Certain plugins and features (Universalis updates, PennyPincher, and more), require knowing about the FFXIV client's current opcodes. These change every patch and can sometimes take more time to sort out before a Dalamud update for a new patch is ready.
+### Q：过时的插件列表
+在过旧的版本, 时间/或者与兴趣的因素下，这些差价目前没有更新，开发者也知道这些。 如果您想帮助维护插件，我们可以帮助您找到他们的 repo 并联系他们（如果他们仍然活跃）。
 
-If you need to refresh your opcode information after it was updated, please relaunch the game. Dalamud will check for updated definitions when it is launched.
+**Chat Extender** <br> 停止版本：5.3 <br> 状态：分成多个单独的插件，可以单独维护。 (ChatBubbles 和Chat Translator是其中两个插件) <br>
 
-<hr>
+**VoidList** <br> 停止版本： 5.4 <br> 状态: 由 SheepGoMeh 完全替换为 Visibility。 使用 /xlplugins 命令来安装它。 <br>
+<hr />
 
-### Q: Outdated Plugins List
-Between patches breaking them, time, and/or interest, these plugins are not currently updated and the developers are aware. If you'd like to help maintain a plugin, we can help you find their repo and contact if they're still active.
+### Q：我的所有插件基本停止工作
+可能有许多事情导致这一点，我们需要从你那里获得更多信息！
 
-**Chat Extender** <br>
-Broken in: 5.3 <br>
-Status: Being split into multiple separate plugins that can be maintained separately. (ChatBubbles and Chat Translator are two of these plugins) <br>
+如果可能，请加入我们的 [Discord 服务器](https://discord.gg/3NMcUV5) 并在 #xivlauncher_issues 频道中请求支持。
 
-**VoidList** <br>
-Broken in 5.4 <br>
-Status: Replaced completely with Visibility by SheepGoMeh. Install that instead using the /xlplugins command ingame. <br>
-<hr>
+我们可能需要您的 `output.log` 或 `dalamud.log` 文件来调查原因。
 
-### Q: All my plugins basically stopped working
-There can be a number of things causing this, and we'll need to get more information from you!
-  
-If possible, please join our [Discord Server](https://discord.gg/3NMcUV5) and ask in the #xivlauncher_issues channel for support.
-  
-We'll probably need your `output.log` and/or `dalamud.log` file to investigate the cause. 
-  
-It is also helpful to know if you have any additional addons/injectors/mods such as reshade/gshade, rivatuner/rtss/msi afterburner, any on-screen-displays/overlays, or mods installed via Textools, as these can also contribute to crashing or conflicts.
-<hr>
+了解您是否还有任何附加插件/注入器/模组，如reshade/gshade、rivatuner/rtss/msi afesburner， 任何屏幕显示/叠加层或通过 Texttool安装的模组，因为它们也可能导致崩溃或冲突。
+<hr />
 
-### Q: Remember the patches, no matter how small, can break plugins
-If you're experiencing crashes once Dalamud is whitelisted fora patch, you will want to disable/delete plugins and wait for updates.
+### Q:只要游戏更新，无论更新大小都可以导致插件无法正常工作
+如果您在 Dalamud 被列入补丁白名单后遇到崩溃，您将需要禁用/删除插件并等待更新。
 
-Plugins that rely on opcodes may take a little longer than ones ones that rely on hooks in some cases, but it ultimately depends on how much the ffxiv client changed.
-<hr>
+依赖opcode的插件可能比依赖hook的插件花费稍长一些。 但这最终取决于ffxiv客户端发生了多少变化。
+<hr />
 
 
-### Q: How do I reset dalamud/plugin window locations?
-1. Close the game 
-2. Go to %appdata%\xivlauncher
-3. Delete dalamudUI.ini
-4. Start the game
+### Q：如何重置 dalamud/plugin 窗口位置？
+1. 关闭游戏
+2. 转到 注入器目录下的 xivlauncher文件夹
+3. 删除dalamudUI.ini
+4. 启动游戏
 
-<hr>
+<hr />
 
-Want to add a new FAQ entry? Please use the template below and PR to the main [FAQ repo](https://github.com/goatcorp/faq)
+想要添加一个新的常见问题解答？ 请使用下面的模板，PR 到主 [常见问题](https://github.com/goatcorp/faq)
 ```
 ### Q: Basic Title
 FAQ content
@@ -133,5 +99,4 @@ FAQ content
 ```
 Then add it to the Table of Contents using `[Name / Title here](#anchor here) <br>`
 
-[Return to the top](#table-of-contents)<br>
-[Return to the main Readme](https://goatcorp.github.io/faq)
+[返回到顶部](#table-of-contents)<br> [返回主页](https://goatcorp.github.io/faq)
