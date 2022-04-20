@@ -1,7 +1,20 @@
 # Dalamud FAQ
 
-### 目录
-[Toc]
+### Table of Contents
+[How do I install/enable plugins?](#q-how-do-i-installenable-plugins) <br>
+[How do I enable plugin test builds?](#q-how-do-i-enable-plugin-test-builds) <br>
+[What is the command for \<insert plugin here\>?](#q-what-is-the-command-for-insert-plugin-here) <br>
+[How do I turn Dalamud Staging on or off?](#q-how-do-i-turn-dalamud-staging-on-or-off) <br>
+[Do not expect XL/Dalamud/Plugin updates on patch day releases](#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br>
+[I get an error message when trying to install/update/disable a plugin](#q-i-get-an-error-message-when-trying-to-installupdatedisable-a-plugin) <br>
+[Reshade and its variants don't work or Dalamud UI fails](#q-reshade-and-its-variants-dont-work-or-dalamud-ui-fails) <br>
+[How do I fix plugins that rely on Dalamud provided opcodes?](#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes) <br>
+[Outdated Plugins List](#q-outdated-plugins-list) <br>
+[All my plugins basically stopped working](#q-all-my-plugins-basically-stopped-working) <br>
+[Remember the patches, no matter how small, can break plugins](#q-remember-the-patches-no-matter-how-small-can-break-plugins) <br>
+[How do I reset dalamud/plugin window locations?](#q-how-do-i-reset-dalamudplugin-window-locations) <br>
+[How do I manually delete plugins?](#q-how-do-i-manually-delete-plugins) <br>
+<hr>
 
 <hr />
 
@@ -92,7 +105,17 @@
 
 <hr />
 
+### Q: How do I manually delete plugins?
+1. Close the game and xivlauncher
+2. Go to %AppData%\XIVLauncher\installedPlugins
+3. Remove the folder[s] for the plugin[s]
+4. Go to %AppData%\XIVLauncher\devPlugins
+5. Remove all manually installed plugins. (Check if they have a third party repo or reinstall later)
+6. Start the game
+
+<hr>
 想要添加一个新的常见问题解答？ 请使用下面的模板，PR 到主 [常见问题](https://github.com/goatcorp/faq)
+
 ```
 ### Q: Basic Title
 FAQ content
