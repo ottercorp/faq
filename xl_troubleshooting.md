@@ -1,9 +1,9 @@
 # XIVLauncher FAQ
 
 ### Table of Contents
-[How do I disable autologin?](#q-how-do-i-disable-autologin) <br>
-[Do not run XIVLauncher as admin](#q-do-not-run-xivlauncher-as-admin) <br>
-[Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?](#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use) <br>
+<!-- [How do I disable autologin?](#q-how-do-i-disable-autologin) <br> -->
+<!-- [不要用管理云权限运行 XIVLauncher CN](#q-do-not-run-xivlauncher-as-admin) <br> -->
+[使用 XIVLauncher, Dalamud 和其中的插件安全吗？](#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use) <br>
 [I get an error saying XIVLauncher failed to check for updates when I open the program](#q-i-get-an-error-saying-xivlauncher-failed-to-check-for-updates-when-i-open-the-program) <br>
 [I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) <br>
 [How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display) <br>
@@ -32,61 +32,61 @@
 [I updated my game with TexTools mods installed. How do I fix crashes?](#q-i-updated-my-game-with-textools-mods-installed-how-do-i-fix-crashes) <br>
 <hr>
 
-### Q: How do I disable autologin?
+<!-- ### Q: How do I disable autologin?
 Keep the shift key held down while you open XIVLauncher. Keep it held down until the main window appears.
-<hr>
+<hr> -->
 
-### Q: Do not run XIVLauncher as admin
-Yes, you've read that correctly! **Please do not run XIVLauncher as admin.** (And by extension, please do not run Dalamud manually as admin.) You should also never let FFXIV run as admin as it can and __will result in your game configuration data becoming write-protected by your own user__. This can result in you being unable to save character config, hotbars, settings, and take screenshots, with no easy solution beyond trying to fix broken permissions or deleting all config and starting over. (SE does not handle file permissions very well)
-<hr>
+<!-- ### Q: 不要用管理员权限运行 XIVLauncher CN
+对的，你没有听错！ **请不要用管理员权限运行 XIVLauncher CN。** （除此之外，也请不要以管理员权限手动注入 Dalamud，除非你的游戏是管理员启动的。） You should also never let FFXIV run as admin as it can and __will result in your game configuration data becoming write-protected by your own user__. This can result in you being unable to save character config, hotbars, settings, and take screenshots, with no easy solution beyond trying to fix broken permissions or deleting all config and starting over. (SE does not handle file permissions very well)
+<hr> -->
 
-### Q: Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?
+### Q: 使用 XIVLauncher, Dalamud 和其中的插件安全吗？
 
-Yes! Here at Goatcorp, we take security extremely seriously. Using our software should never put you in a situation where another player can detect you're using third party modifications. At this time, we have no reason to believe that Square Enix does anything to detect client modifications in any form. Compare to using ReShade/GShade, ACT, Teamcraft, and other community projects. 
+是的！在 Goatcorp（和 Ottercorp），我们非常重视安全。 使用我们的软件绝不应该让其他玩家可以检测到您正在使用第三方修改。 目前，我们没有理由相信史克威尔艾尼克斯会采取任何措施来检测任何形式的客户端修改。 正如我们所使用的 ReShade/GShade、ACT、Teamcraft 和其他社区项目一样。
 
 
-#### General Disclaimer
-You shouldn't mention using XIVLauncher or plugins in-game, just like you shouldn't admit to using *any* third party modifications, as it is technically against the FFXIV Terms of Service. We have no reported cases of a user being banned for using XIVLauncher, Dalamud, or Dalamud Plugins, but you should still exercise caution. All officially supported plugins go through code review to ensure that they are not exploiting the game or doing anything in such a manner that would result in your game client sending invalid data to the game servers. __We cannot endorse any unofficial plugins from third party plugin repositories. You use those at your own risk.__
+#### 一般免责声明
+你不应该提及在游戏中使用 XIVLauncher 或插件，就像你不应该承认使用 *任何* 第三方修改一样，因为它在技术上违反最终幻想14的服务条款。我们没有报告用户因使用 XIVLauncher、Dalamud 或其中插件而被封禁的案例，但您仍应谨慎行事。所有官方支持的插件都经过代码审查，以确保它们不会利用游戏或做任何会导致您的游戏客户端向游戏服务器发送无效数据的行为。 __我们不能认可来自第三方插件库的任何非官方插件。您使用第三方插件风险自负。__
 
-Additionally, XIVLauncher is entirely a __hobby project__. We do this because it's fun to us, and not because we get paid for it. This means that we always try our best to be professional and responsive, but it also means that everything we do provide to you is on a "best effort" basis - maintaining software like this takes a lot of time and we're just human as well :)
+此外，XIVLauncher 完全是一个 __用爱发电项目__。我们这样做是因为它对我们来说很有趣，而不是因为我们从中获利。这意味着我们始终尽最大努力做到专业和响应迅速，但这也意味着我们为您提供的一切都是“尽最大努力”的基础 - 维护这样的软件需要大量时间，而我们也是如大家一样的普通人 ：）
 
-If you have any questions about XIVLauncher, Dalamud, or Dalamud Plugins, please feel free to ask questions in our [support discord](https://discord.gg/3NMcUV5). We are a primarily English-speaking community and support in other languages may be limited.
+如果您对 XIVLauncher、Dalamud 或其中插件有任何疑问，请随时在我们的 [QQ频道](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=CZtWN&from=181074&biz=ka&shareSource=5) 中提问。我们是一个主要讲中文的社区，对其他语言的支持可能有限。
 
-#### XIVLauncher Security Specifics
-Here are some additional details about XIVLauncher itself.
+#### XIVLauncher 安全细节
+以下是有关 XIVLauncher 本身的一些其他详细信息。
 
-1. XIVLauncher is open source. You can audit the code in the main [XIVLauncher GitHub Repo](https://github.com/goatcorp/FFXIVQuickLauncher/).
-2. XIVLauncher releases are now built directly on GitHub, anything you download, you can be sure that it is from the version of the open source code that is listed on the GitHub repository. The XIVLauncher version check file is cached onto a private VPS to help reduce your chances of hitting GitHub API rate limits and Country-specific ISP blocks. File downloads will show our proxy domain (`kamori.goats.dev`), but this redirects to GitHub. You may use a network analysis tool of your choice to verify this behavior. The VPS uses Cloudflare to cache the data in turn and is only accessible via VPN and a hardware key. 
-3. In the event that the launcher has been modified, or you are running a version intended for development, it will clearly denote that it is a debug build or otherwise a test/unsupported release. ![unsupported xivlauncher build](images/xivlauncher_unsupported.png).
-4. XIVLauncher uses the Windows Credential Manager to safely store your account credentials, if you choose to save them. Your passwords are encrypted and can only be accessed by authorized programs. However, that does mean if someone manages to gain access to your computer, they can technically extract your password. (But at that point, you likely have bigger issues)
-5. XIVLauncher only communicates with our secured proxy, GitHub, and official FFXIV websites.
-6. XIVLauncher has been designed to fully replicate the same login and authorization process as the official launcher. Steps have been taken to ensure that it will always match retail, down to experiencing the same login issues. Patch downloads are obtained from the same patchlist that SE provides the retail launcher, and all patch files are verified to be correct before they are applied.
+1. XIVLauncher 是开源的。 您可以在我们的开源仓库 [XIVLauncher GitHub Repo](https://github.com/ottercorp/FFXIVQuickLauncher/) 中审核代码。
+2. XIVLauncher 版本现在直接构建在 GitHub 上，您下载的任何内容都可以确定它来自 GitHub 存储库中列出的开源代码版本。 XIVLauncher 版本检查文件被缓存到私有云存储上，以帮助减少您达到 GitHub API 速率限制和特定国家/地区的 ISP 限制的机会。 文件下载将显示我们的代理域（`ffxiv.wang`），但这会重定向到 GitHub 或中国大陆的 CDN/云存储 （如果需要的话）。 您可以使用您选择的网络分析工具来验证此行为。 代理 使用腾讯云CDN缓存数据，并且只有极少部分开发者可以通过控制台进行访问。
+3. 如果 XIVLauncher 已被修改，或者您正在运行用于开发的版本，它将清楚地表明它是调试版本或其他测试/不受支持的版本。 ![unsupported xivlauncher build](images/xivlauncher_unsupported.png).
+4. XIVLauncher 使用 Windows 凭据管理器安全地存储您的帐户凭据（包括密码和快速登录凭据）。 您的密码和凭据已加密，只能由授权程序访问。 但是，这确实意味着如果有人设法访问您的计算机，他们可以从技术上提取您的密码与评剧。（但这种情况下您需要优先考虑的或许不只是账号安全的问题。）
+5. XIVLauncher 仅与我们的安全代理、GitHub 和最终幻想14官方网站进行通信。
+6. XIVLauncher 旨在完全复制与官方启动器相同的登录和授权过程。 已采取措施确保它始终与官方匹配，直至遇到相同的登录问题。 补丁下载是从SE/盛趣提供的启动器的同一个补丁列表中获得的，所有补丁文件在应用之前都经过验证是正确的。
 
-#### Dalamud Security Specifics
-Here are some additional details about Dalamud.
+#### Dalamud 安全细节
+以下是有关 Dalamud 的一些其他详细信息。
 
-1. Dalamud **is** a code injection framework. By definition, it's going to look and act like a virus-like program. Your antivirus might even consider it harmful or potentially harmful software! You can read more about [whitelisting Dalamud](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone) elsewhere on the FAQ. __We recommend whitelisting for the best experience, but your computing environment may not require it.__
-2. Dalamud allows you to read game memory and network packets. Compare this to using ACT. 
-3. Dalamud's framework comes with the ability for modifying game memory/hooking into game client memory and functions that plugins can choose to use. We however only provide safe read-only(where it applies) access to game data in the official [Dalamud game data APIs](https://goatcorp.github.io/Dalamud/api/index.html).
+1. Dalamud **是**一个代码注入框架。根据定义，它的外观和行为都类似于病毒程序。您的防病毒软件甚至可能认为它是有害或潜在有害的软件！您可以在常见问题解答的其他地方阅读更多关于 [将 Dalamud 列入白名单](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone) 的信息。 __我们建议加入白名单以获得最佳体验，但您的电脑环境可能并不需要。__
+2. Dalamud 允许您读取游戏内存和网络数据包。 您可以将此行为与使用 ACT 进行类比。
+3. Dalamud 框架自带修改游戏内存/Hook游戏客户端内存的能力和插件可以调用的函数。 然而，我们仅在官方 [Dalamud 游戏数据 API](https://goatcorp.github.io/Dalamud/api/index.html) 中提供对游戏数据的只读访问（在适用的情况下）。
 
-#### Plugin Security Specifics
-Here are some additional details about Dalamud Plugins.
+#### 插件安全细节
+以下是有关 Dalamud 插件的一些其他详细信息。
 
-1. Dalamud Plugins on our official plugin repository have been deemed "safe to use" by us.
-2. Officially supported plugins should always be downloaded/installed directly in game from the `/xlplugins` plugin installer. You don't need to download them manually or install them manually.
-3. Dalamud does support third party plugin repositories, with limited support
-	- We cannot provide support for unofficial plugins
-	- While many unofficial plugins are safe to use, others may do things that exploit the game or create unsafe conditions that could send invalid data to the game servers or could result in bans. Please exercise caution before using an unsupported plugin. We cannot take any responsibility for them.
-	- Unsupported plugin troubleshooting should be taken to the plugin developer or their relevant communities. Please do not ask for support on the XIVLauncher support discord for these plugins, even if they don't have proper support channels elsewhere. 
+1. 我们官方插件库中的插件已被我们视为“可以安全使用”。
+2. 官方支持的插件应始终从`/xlplugins`插件安装程序直接下载/安装在游戏中。您无需手动下载或手动安装它们。
+3. Dalamud 支持第三方插件库，但是支持有限：
+- 我们不会为非官方插件提供支持
+- 虽然许多非官方插件可以安全使用，但其他插件可能会利用游戏或创建不安全的状态，从而将无效数据发送到游戏服务器从而导致封禁。在使用不受支持的插件之前，请谨慎行事。我们不为第三方插件开发者承担任何责任。
+- 不支持的插件的故障排除应提交给插件开发人员或其相关社区。请不要为这些插件在我们的官方频道寻求官方支持，即使它们另外的的支持渠道。
 
-#### Network Security Specifics
-These are the non-FFXIV domains you should expect to see network traffic from. All connections are made with HTTPS where possible. (Square-Enix is dumb and some of their services do not use HTTPS. We do not like this, but have no control over it.)
+#### 网络安全细节
+除了最终幻想14官方网站外，您可能也看到以下列表的网络流量。所有连接都尽可能使用 HTTPS。（Square-Enix 和盛趣很笨，他们的一些服务不使用 HTTPS。我们不喜欢这样，但无法控制它。）
 
-You can find the source code for our additional web services here: <https://github.com/goatcorp/XLWebServices/tree/master/XLWebServices>
+您可以在此处找到我们其他 Web 服务的源代码，国服可能并没有完全使用：<https://github.com/goatcorp/XLWebServices/tree/master/XLWebServices>
 
-1. `kamori.goats.dev` - this is a private VPS behind Cloudflare, run by the maintainer of XIVLauncher, to proxy and cache some common files that XIVLauncher and Dalamud need to check their version. It's being used to reduce the number of network connections to GitHub so that users do not need to worry about hitting rate limits and having bad connections/being blocked by their countries' firewall, which then directs traffic to GitHub as needed. The VPS uses Cloudflare to cache the data in turn and is only accessible via VPN and a hardware key.
-2. `github.com`, `raw.githubusercontent.com`, and `goatcorp.github.io` - It's GitHub. You're on it right now!
-3. `is.xivup.com` - basic community site to check for server status.
+1. `ffxiv.wang` - 这是 XIVLauncher CN 背后的私有 VPS，由 XIVLauncher CN 的维护者运行，用于代理和缓存 XIVLauncher 和 Dalamud 检查其版本的一些常用文件。它被用来减少到 GitHub 的网络连接数量，这样用户就不必担心达到速率限制和连接不良/被他们国家的防火墙阻止，然后根据需要将流量引导到 GitHub。 VPS 使用 国内的CDN/云服务 依次缓存数据，并且只有极少部分开发者可以通过控制台进行访问。
+2. `github.com`、`raw.githubusercontent.com` 和 `ottercorp.github.io` - 它是 GitHub。你现在正在访问的就是！
+3. `act1.ff.sdo.com` - 检查服务器状态的盛趣站点。
 <hr>
 
 ### Q: I get an error saying XIVLauncher failed to check for updates when I open the program
