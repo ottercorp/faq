@@ -58,7 +58,7 @@ Keep the shift key held down while you open XIVLauncher. Keep it held down until
 1. XIVLauncher 是开源的。 您可以在我们的开源仓库 [XIVLauncher GitHub Repo](https://github.com/ottercorp/FFXIVQuickLauncher/) 中审核代码。
 2. XIVLauncher 版本现在直接构建在 GitHub 上，您下载的任何内容都可以确定它来自 GitHub 存储库中列出的开源代码版本。 XIVLauncher 版本检查文件被缓存到私有云存储上，以帮助减少您达到 GitHub API 速率限制和特定国家/地区的 ISP 限制的机会。 文件下载将显示我们的代理域（`ffxiv.wang`），但这会重定向到 GitHub 或中国大陆的 CDN/云存储 （如果需要的话）。 您可以使用您选择的网络分析工具来验证此行为。 代理 使用腾讯云CDN缓存数据，并且只有极少部分开发者可以通过控制台进行访问。
 3. 如果 XIVLauncher 已被修改，或者您正在运行用于开发的版本，它将清楚地表明它是调试版本或其他测试/不受支持的版本。 ![unsupported xivlauncher build](images/xivlauncher_unsupported.png).
-4. XIVLauncher 使用 Windows 凭据管理器安全地存储您的帐户凭据（包括密码和快速登录凭据）。 您的密码和凭据已加密，只能由授权程序访问。 但是，这确实意味着如果有人设法访问您的计算机，他们可以从技术上提取您的密码与评剧。（但这种情况下您需要优先考虑的或许不只是账号安全的问题。）
+4. XIVLauncher 使用 Windows 凭据管理器安全地存储您的帐户凭据（包括密码和快速登录凭据）。 您的密码和凭据已加密，只能由授权程序访问。 但是，这确实意味着如果有人设法访问您的计算机，他们可以从技术上提取您的密码与凭据。（但这种情况下您需要优先考虑的或许不只是账号安全的问题。）
 5. XIVLauncher 仅与我们的安全代理、GitHub 和最终幻想14官方网站进行通信。
 6. XIVLauncher 旨在完全复制与官方启动器相同的登录和授权过程。 已采取措施确保它始终与官方匹配，直至遇到相同的登录问题。 补丁下载是从SE/盛趣提供的启动器的同一个补丁列表中获得的，所有补丁文件在应用之前都经过验证是正确的。
 
