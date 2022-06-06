@@ -65,7 +65,7 @@ Keep the shift key held down while you open XIVLauncher. Keep it held down until
 #### Dalamud 安全细节
 以下是有关 Dalamud 的一些其他详细信息。
 
-1. Dalamud **是**一个代码注入框架。根据定义，它的外观和行为都类似于病毒程序。您的防病毒软件甚至可能认为它是有害或潜在有害的软件！您可以在常见问题解答的其他地方阅读更多关于 [将 Dalamud 列入白名单](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone) 的信息。 __我们建议加入白名单以获得最佳体验，但您的电脑环境可能并不需要。__
+1. Dalamud **是一个代码注入框架**。根据定义，它的外观和行为都类似于病毒程序。您的防病毒软件甚至可能认为它是有害或潜在有害的软件！您可以在常见问题解答的其他地方阅读更多关于 [将 Dalamud 列入白名单](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone) 的信息。 __我们建议加入白名单以获得最佳体验，但您的电脑环境可能并不需要。__
 2. Dalamud 允许您读取游戏内存和网络数据包。 您可以将此行为与使用 ACT 进行类比。
 3. Dalamud 框架自带修改游戏内存/Hook游戏客户端内存的能力和插件可以调用的函数。 然而，我们仅在官方 [Dalamud 游戏数据 API](https://goatcorp.github.io/Dalamud/api/index.html) 中提供对游戏数据的只读访问（在适用的情况下）。
 
@@ -89,69 +89,71 @@ Keep the shift key held down while you open XIVLauncher. Keep it held down until
 3. `act1.ff.sdo.com` - 检查服务器状态的盛趣站点。
 <hr>
 
-### Q: I get an error saying XIVLauncher failed to check for updates when I open the program
-There are a few different reasons that XIVLauncher will fail to open. Here are a few common ones.
+### Q: 打开程序时，我收到一条错误消息，提示 XIVLauncher 无法检查更新
+XIVLauncher 无法打开有几个不同的原因。 这里有几个常见的。
 
-#### XIVLauncher is being blocked by my antivirus/firewall
-See the main [Antivirus](#) FAQ post for information on how to whitelist XIVLauncher. 
+#### XIVLauncher 被防病毒/防火墙阻止
+有关如何将 XIVLauncher 列入白名单，请参阅 [杀毒程序](#) FAQ 帖子。
 
-#### GitHub Rate Limits
+<!-- #### GitHub Rate Limits
 If you've made a lot of queries to github recently, it's possible they may have rate-limited you. This is usually a combined effort of XIVLauncher, Dalamud, Dalamud plugin updates, Gshade, etc all being done in rapid succession, which shouldn't happen under normal circumstances.
 
 1. Try to visit <https://api.github.com/rate_limit> and see if the post loads (or downloads a json file)
 2. Look for `resources.core.remaining`. If it's 0, you've hit GitHub's rate limit
 3. If you've hit the limit, grab the timestamp number from resources.core.reset and convert the UTC timestamp into a human-readable date. <https://www.unixtimestamp.com/> works great for this.
-4. Wait the alloted time before launching again, or the timeout period could be extended (if you absolutely need to get in game, use the official launcher during this time)
+4. Wait the alloted time before launching again, or the timeout period could be extended (if you absolutely need to get in game, use the official launcher during this time) -->
 
-#### Not sure?
-For the fastest support, head over to the XIVLauncher Discord and post into the #xivlauncher-issues channel with the error you're getting, a screenshot (if possible), and your `output.log` file which can be found in `%appdata%\xivlauncher` (Use `f!faq logxl` in the XIVLauncher discord for more details there). 
+#### 仍未解决？
+为了获得最快的支持，请前往 QQ频道 并在 #xivlauncher 问答帮助 频道中发布您遇到的错误、屏幕截图（如果可能）以及可以在 `Roaming`中 找到的 `output.log` 文件。
 <hr>
 
-### Q: **I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors**
+### 问：**我在 Linux 上，并且不断收到“XIVLauncher 无法更新”错误**
 
-On some more recent Linux distributions, TLS 1.0 and 1.1 has been disabled. This causes an issue with Wine and FFXIV/XIVLauncher because it may not always negotiate TLS correctly.
+在一些较新的 Linux 发行版上，TLS 1.0 和 1.1 已被禁用。 这会导致 Wine 和 FFXIV/XIVLauncher 出现问题，因为它可能并不总是正确地协商 TLS。
 
-You can fix this by setting your `dssenh` DLL override to native if it isn't already. (dssenh=n as an environment variable or in Lutris)
+如果还没有，您可以通过将 `dssenh` DLL 覆盖设置为本机来解决此问题。 （dssenh=n 作为环境变量或在 Lutris 中）
 
-This has also been added to the xivlauncher Lutris script as well.
+这也已添加到 xivlauncher Lutris 脚本中。
 
-Thank you to kainz0r for this tip!
-![Example](images/LinuxConfigScreenshot.png)
+感谢 kainz0r 的提示！
+![示例](images/LinuxConfigScreenshot.png)
 
-On **Fedora**? You will need to run `sudo update-crypto-policies --set DEFAULT:FEDORA32` in order to lighten up the security policies as Fedora 33 and later have stricter SSL/TLS settings. `FEDORA32` didn't work? Try instead: `sudo update-crypto-policies --set LEGACY`
+在 **Fedora** 上？ 您需要运行 `sudo update-crypto-policies --set DEFAULT:FEDORA32` 以减轻安全策略，因为 Fedora 33 及更高版本具有更严格的 SSL/TLS 设置。 `FEDORA32` 没用？ 改用：`sudo update-crypto-policies --set LEGACY`
 <hr>
 
-### Q: How come the in-game addon (Dalamud) doesn't work and/or plugins don't display?
+### Q: 为什么游戏内插件 (Dalamud) 不起作用或插件不显示？
 
-Like many other game tools, Dalamud works by injecting into the FFXIV process and hooking DirectX. Occasionally, it conflicts with other tools or can't work because of them.
+与许多其他游戏工具一样，Dalamud 通过注入 FFXIV 进程并挂钩 DirectX 来工作。 有时，它会与其他工具发生冲突或因此而无法工作。
 
-Some of the more common ones that may cause issues are:
-- **Common Third-Party Antivirus** programs. See the dedicated FAQ for this using `f!faq av`
-- **FRAPS** please make sure FRAPS is closed when opening FFXIV. It hooks directx for the FPS display and/or recording. You can open it for those features after the game is running.
-- **Logitech GHub** We don't know why this is a  problem application, but it is. THis program may cause Dalamud to crash when exiting the game leaving you on a black screen that's stuck and has to be closed uncleanly. 
-- **MacType** makes no changes to FFXIV because it doesn't use normal fonts anyways. Block it from hooking to FFXIV and you'll be fine.
-- **MSI Afterburner** contains RTSS. See below.
--  **OBS** Some of the streaming modes involve hooking directx for better capture. This can cause plugins to render in streams or to not render at all. You may need to change your capture methods.
-- **RivaTuner**/**RTSS** Either blacklist FFXIV from automatic hooking or [set a RTSS load delay](#q-how-to-set-an-an-injection-delay-in-rivatunerrtss). RTSS can be used after Dalamud loads without issues.
-- **SpecialK** This also injects into DirectX and can mess things up for Dalamud's injection. It's not consistent, but you probably shouldn't use it unless you have a way of making it hook after Dalamud has loaded.
+一些可能导致问题的常见原因是：
+- **常见的第三方杀毒**程序。
+- **FRAPS** 请确保在打开 FFXIV 时 FRAPS 已关闭。它为 FPS 显示和/录制挂钩 DirectX。您可以在游戏运行后再打开它。
+- **Logitech GHub** 我们不知道为什么这是一个有问题的程序，但确实如此。该程序可能会导致 Dalamud 在退出游戏时崩溃，让您处于卡住的黑屏状态，并且必须强行关闭。
+- **MacType** 对 FFXIV 没有任何作用，因为游戏不使用系统字体。请阻止它与 FFXIV 挂钩，你会没事的。
+- **MSI Afterburner** 包含 RTSS。见下文。
+- **OBS** 一些直播模式涉及挂钩 DirectX 以获得更好的捕获。这可能导致插件在直播流中呈现或根本不呈现。您可能需要更改捕获方法。
+- **RivaTuner**/**RTSS** 要么将 FFXIV 列入自动挂钩例外，要么 [设置 RTSS 加载延迟](#q-how-to-set-an-an-injection-delay-in-rivatunerrtss)。 RTSS 可以在 Dalamud 加载后使用，没有问题。
+- **SpecialK** 这也注入到 DirectX 中，并且可以搞砸 Dalamud 的注入。它并不兼容，但您可能不应该使用它，除非您有办法在 Dalamud 加载后使其挂钩。
+- **国服启动游戏时黑屏** 可能是由于国服特有的游戏公约造成了游戏的实际启动时间落后，如果游戏启动马上注入有一定的可能造成游戏黑屏，请在 XIVLauncher 的设置界面设置 5～10 秒的注入延迟。
 <hr>
 
-### Q: How do I uninstall XIV Launcher?
+### Q: 如何卸载 XIV Launcher？
 
-You can uninstall XIVLauncher like any normal windows program though the control panel or windows 10 setting app. If you want to purge any trace of it, check for and remove these folders.
+您可以通过控制面板或 Windows 10 设置应用程序像任何普通 Windows 程序一样卸载 XIVLauncher。 如果要清除它的任何痕迹，请检查并删除这些文件夹。
 
-Program installation and old versions:
+程序安装和旧版本：
 `%localappdata%\XIVLauncher`
-`%localappdata%\goatsoft` (if it exists)
+`%localappdata%\goatsoft`（如果存在）
 
-Settings/plugins and other user config
-`%appdata%\XIVLauncher`
+设置/插件和其他用户配置
+`%appdata%\XIVLauncher`（国际服）
+`安装目录\XIVLauncher`（国服）
 <hr>
 
-### Q: How do I fix plugins that rely on Dalamud provided opcodes?
-Certain plugins and features (Universalis updates, PennyPincher, and more), require knowing about the FFXIV client's current opcodes. These change every patch and can sometimes take more time to sort out before a Dalamud update for a new patch is ready.
+### Q: 如何修复依赖 Dalamud 提供的操作码的插件？
+某些插件和功能（Universalis 更新、PennyPincher 等）需要了解 FFXIV 客户端的当前操作码。 所以每次更新 Dalamud 都需要对其进行测试与整理
 
-If you need to refresh your opcode information after it was updated, please relaunch the game. Dalamud will check for updated definitions when it is launched.
+如果更新后需要刷新操作码信息，请重新启动游戏。 Dalamud 将在启动时检查更新的定义。
 <hr>
 
 ### Q: How do I whitelist XIVLauncher and Dalamud so my Antivirus leaves them alone?
