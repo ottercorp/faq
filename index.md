@@ -27,9 +27,9 @@
 
 <div>
   
-<a href="https://ottercorp.github.io/faq/xl_troubleshooting" class="btnm">卫月框架相关帮助</a>
+<a href="https://ottercorp.github.io/faq/xl_troubleshooting" class="btnm">XIVLauncher相关帮助</a>
 
-<a href="https://ottercorp.github.io/faq/dalamud_troubleshooting" class="btnm">插件使用相关帮助</a>
+<a href="https://ottercorp.github.io/faq/dalamud_troubleshooting" class="btnm">卫月框架相关帮助</a>
 
 <a href="https://ottercorp.github.io/faq/development" class="btnm">插件开发相关帮助</a>
   
