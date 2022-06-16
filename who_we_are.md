@@ -10,6 +10,6 @@ XIVLauncher 与 Dalamud 是由 [goatcorp](https://github.com/goatcorp) 团队开
 
 XIVLauncher and Dalamud are developed by the [goatcorp](https://github.com/goatcorp) team. And [ottercorp](https://github.com/ottercorp) is the team that maintains XIVLauncher CN and Dalamud (卫月框架) in the Chinese server.
 
-The two teams have no direct relationship between the members and the service provided are completely independent. ottercorp and goatcorp have the same open source spirit and abide by the same development rules, where ottercorp may also make certain modifications and improvements according to the actual situation of the server/game in China.
+The two teams have no direct relationship between the members and the service provided are completely independent. ottercorp and goatcorp have the same open source spirit and abide by the same development rules, while ottercorp may also make certain modifications and improvements according to the actual situation of the server/game in China.
 
 Neither team is affiliated with Square Enix Co., Ltd.
