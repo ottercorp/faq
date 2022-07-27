@@ -2,14 +2,14 @@
 
 ### Table of Contents
 <!-- [How do I disable autologin?](#q-how-do-i-disable-autologin) <br> -->
-<!-- [不要用管理云权限运行 XIVLauncher CN](#q-do-not-run-xivlauncher-as-admin) <br> -->
-[使用 XIVLauncher, Dalamud 和其中的插件安全吗？](#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use) <br>
-[I get an error saying XIVLauncher failed to check for updates when I open the program](#q-i-get-an-error-saying-xivlauncher-failed-to-check-for-updates-when-i-open-the-program) <br>
-[I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) <br>
-[How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display) <br>
-[How do I uninstall XIV Launcher?](#q-how-do-i-uninstall-xiv-launcher) <br>
-[How do I fix plugins that rely on Dalamud provided opcodes?](#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes) <br>
-[How do I whitelist XIVLauncher and Dalamud so my Antivirus leaves them alone](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone) <br>
+<!-- [不要用管理员权限运行 XIVLauncher CN](#q-do-not-run-xivlauncher-as-admin) <br> -->
+[使用 XIVLauncher, Dalamud 和其中的插件安全吗？](#q-使用-xivlauncher-dalamud-和其中的插件安全吗) <br>
+[打开程序时，我收到一条错误消息，提示 XIVLauncher 无法检查更新](##q-打开程序时我收到一条错误消息提示-xivlauncher-无法检查更新) <br>
+[我在 Linux 上，并且不断收到“XIVLauncher 无法更新”错误](#q-我在-linux-上并且不断收到xivlauncher-无法更新错误) <br>
+[为什么游戏内插件 (Dalamud) 不起作用或插件不显示？](#q-为什么游戏内插件-dalamud-不起作用或插件不显示) <br>
+[如何卸载 XIV Launcher？](#q-如何卸载-xiv-launcher) <br>
+[如何修复依赖 Dalamud 提供的操作码的插件？](#q-如何修复依赖-dalamud-提供的操作码的插件) <br>
+[Q: 我如何将 XIVLauncher 和 Dalamud 加入我的杀毒程序白名单？](#q-我如何将-XIVLauncher-和-Dalamud-加入我的杀毒程序白名单) <br>
 [XIV isn't saving my new password / how do I clear my saved password?](#q-xiv-isnt-saving-my-new-password--how-do-i-clear-my-saved-password) <br>
 [I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?](#q-i-think-xivlauncher-is-giving-me-a-blue-screen-of-death-what-information-would-help-narrow-this-down) <br>
 [How can I fix crashes on startup?](#q-how-can-i-fix-crashes-on-startup) <br>
@@ -107,7 +107,7 @@ If you've made a lot of queries to github recently, it's possible they may have 
 为了获得最快的支持，请前往 QQ频道 并在 #xivlauncher 问答帮助 频道中发布您遇到的错误、屏幕截图（如果可能）以及可以在 `Roaming`中 找到的 `output.log` 文件。
 <hr>
 
-### 问：**我在 Linux 上，并且不断收到“XIVLauncher 无法更新”错误**
+### Q: **我在 Linux 上，并且不断收到“XIVLauncher 无法更新”错误**
 
 在一些较新的 Linux 发行版上，TLS 1.0 和 1.1 已被禁用。 这会导致 Wine 和 FFXIV/XIVLauncher 出现问题，因为它可能并不总是正确地协商 TLS。
 
@@ -156,17 +156,23 @@ If you've made a lot of queries to github recently, it's possible they may have 
 如果更新后需要刷新操作码信息，请重新启动游戏。 Dalamud 将在启动时检查更新的定义。
 <hr>
 
-### Q: How do I whitelist XIVLauncher and Dalamud so my Antivirus leaves them alone?
+### Q: 我如何将 XIVLauncher 和 Dalamud 加入我的杀毒程序白名单？
 
-Please make exceptions (or whitelist) the following folders:
+请将以下目录加入您的杀毒程序例外或白名单中：
+国际服/XIVLauncher：
  - `%localappdata%\XIVLauncher`
  - `%appdata%\XIVLauncher`
  - `Your FFXIV game installation folder`
 
-### Please also restart your computer afterwards
+国服/XIVLauncherCN：
+ - `安装目录\XIVLauncher`
+ - `安装目录\XIVLauncher\Roaming`
+ - `最终幻想14安装目录`
 
-#### You may also need to reset Dalamud (the plugin system)
-To reset dalamud, remove your `%appdata%\XIVLauncher\addon\Hooks` folder. Or type `f!faq delete dalamud` in the XIVLauncher discord and Franzbot will guide you through.
+### 之后也请重新启动您的计算机
+
+#### 您可能还需要重置 Dalamud（插件系统）
+要重置 dalamud，请删除您的 `安装目录\XIVLauncher\Roaming\addon\Hooks` 文件夹。 或者在QQ频道中输入 `/faq 删除dalamud`，獭獭机器人将引导您完成。
 
 #### You should also try to whitelist the following files if possible:
 1. `<your ffxiv installation>\game\ffxiv_dx11.exe`
