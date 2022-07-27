@@ -9,7 +9,7 @@
 [为什么游戏内插件 (Dalamud) 不起作用或插件不显示？](#q-为什么游戏内插件-dalamud-不起作用或插件不显示) <br>
 [如何卸载 XIV Launcher？](#q-如何卸载-xiv-launcher) <br>
 [如何修复依赖 Dalamud 提供的操作码的插件？](#q-如何修复依赖-dalamud-提供的操作码的插件) <br>
-[我如何将 XIVLauncher 和 Dalamud 加入我的杀毒程序白名单？](#q-我如何将-XIVLauncher-和-Dalamud-加入我的杀毒程序白名单) <br>
+[我如何将 XIVLauncher 和 Dalamud 加入我的杀毒程序白名单？](#q-我如何将-xivlauncher-和-dalamud-加入我的杀毒程序白名单) <br>
 [XIV isn't saving my new password / how do I clear my saved password?](#q-xiv-isnt-saving-my-new-password--how-do-i-clear-my-saved-password) <br>
 [I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?](#q-i-think-xivlauncher-is-giving-me-a-blue-screen-of-death-what-information-would-help-narrow-this-down) <br>
 [How can I fix crashes on startup?](#q-how-can-i-fix-crashes-on-startup) <br>
