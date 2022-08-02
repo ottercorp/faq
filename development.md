@@ -20,7 +20,7 @@
 
 ### Restrictions
 
-- [What am I allowed to do in my plugin?](#q-what-am-i-allowed-to-do-in-my-plugin)
+- [我可以在我的插件中做什么？](#q-我可以在我的插件中做什么)
 - [Why do you discourage certain types of plugins?](#q-why-do-you-discourage-certain-types-of-plugins)
 - [Are there any performance constraints to be aware of?](#q-are-there-any-performance-constraints-to-be-aware-of)
 
@@ -191,16 +191,16 @@ When the game is updated, it is likely that your plugin will stop working and/or
 
 ## Restrictions
 
-### Q: What am I allowed to do in my plugin?
+### Q: 我可以在我的插件中做什么？
 
-Dalamud plugin development, by its nature, interferes with the game's functioning and changes the experience as intended by Square Enix. This makes it very important to ensure that your plugin does not do anything that a human player could not do; Dalamud plugins should enhance the experience, not radically alter it.
+Dalamud 插件的开发在本质上会干扰游戏的运行并改变 Square Enix 所带来的体验。这使得限制您的插件不会做任何人类玩家无法做到的事情变得尤其重要； Dalamud 插件应该仅仅增强体验，而不是从根本上改变它。
 
-Please make sure that your plugin does not interact with the game servers in a way that is:
+请确保您的插件不会以以下方式与游戏服务器交互：
 
-- automatic, as in polling data or making requests without direct interaction from the user
-- outside of specification, as in allowing the player to do submit things to the server that would not be possible by normal means
+- 自动化，如轮询数据或在没有用户直接交互的情况下发出请求。
+- 超出规范，例如允许玩家通过正常方式无法实现的方法向服务器提交数据。
 
-Plugins that violate this will not be accepted into the Dalamud plugin repository, and you will not receive support from the Dalamud community.
+违反此规定的插件将不会被 Dalamud 插件存储库接受，并且您将不会得到 Dalamud 社区的支持。
 
 <hr>
 
