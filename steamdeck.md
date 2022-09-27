@@ -34,9 +34,9 @@
 
 **不要为 XIVLauncher 设置兼容模式。** XIVLauncher 是本机 Linux 应用程序。 为它设置兼容性会破坏它。
 
-### 可选：允许外部文件夹访问 XIVLauncher
+### 允许外部文件夹访问 XIVLauncher
 
-运行 Flatseal。 在左侧，向下滚动到 XIVLauncherCN。 在窗口的主要部分，向下滚动到“文件系统”。 单击其他文件旁边的文件夹图标。 输入您所安装最终幻想 XIV 的位置。 默认情况下，您的 MicroSD 安装到 `/run/media/mmcblk0p1`。
+运行 Flatseal。 在左侧，向下滚动到 XIVLauncherCN。 在窗口的主要部分，向下滚动到“文件系统”。 单击其他文件旁边的文件夹图标。 输入您所安装最终幻想 XIV 的位置。 默认情况下，您的 MicroSD 安装到 `/run/media/mmcblk0p1`。同样的，也需要添加上一步骤的启动目录为可访问目录。
 
 ### 切换到游戏模式
 
