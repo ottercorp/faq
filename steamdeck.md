@@ -29,7 +29,7 @@
 在 Steam 的桌面模式中，选择“添加游戏”，向下滚动到 XIVLauncherCN，单击复选框，然后单击“添加所选程序”
 
 在 Steam 中右键单击 XIVLauncher，选择“属性”，然后
-  - 将“启动目录”替换为： `/home/deck` 或其他的非制度目录，国服的启动器需要运行在有写入权限的目录来进行登陆二维码的下载。
+  - 将“启动目录”替换为： `/home/deck` 或其他的非只读目录，国服的启动器需要运行在有写入权限的目录来进行登陆二维码的下载。
   - 将“启动选项”替换为： `XL_SECRET_PROVIDER=FILE %command% run --parent-expose-pids --parent-share-pids --parent-pid =1 --branch=stable --arch=x86_64 --command=xivlauncher cn.ottercorp.xivlaunchercn` 请注意，在此配置下，XIVLauncher 会将您的密码保存到您的 Steam Deck 中的文件中，因为 Valve 默认没有提供更安全的密码存储方式。 如果这对您来说是个问题，请从上面的行中省略 `XL_SECRET_PROVIDER=FILE` - 在这种情况下，XIVLauncher 将无法保存您的密码。
 
 **不要为 XIVLauncher 设置兼容模式。** XIVLauncher 是本机 Linux 应用程序。 为它设置兼容性会破坏它。
