@@ -18,7 +18,7 @@
 
 打开 “Discover Store”，搜索 “XIVLauncherCN” ，然后安装。
 
-**可选：**如果您想将 Final Fantasy XIV 安装到您的 Deck 的 MicroSD 卡或默认以外的任何文件夹 (`~/.xlcore/ffxiv`)，您还需要 Discover Store 中的 `Flatseal`。
+**可选：**如果您想将 Final Fantasy XIV 安装到您的 Deck 的 MicroSD 卡或默认以外的任何文件夹 (`~/.xlcore_cn/ffxiv`)，您还需要 Discover Store 中的 `Flatseal`。
 
 ### 拷贝国服游戏文件
 
@@ -56,7 +56,7 @@
 
 ### Q: 我的配置文件保存在哪里？
 
-配置文件保存到`~/.xlcore`。
+配置文件保存到`~/.xlcore_cn`。
 
 ### Q: 游戏随机消失，休眠后无法恢复
 
@@ -90,7 +90,7 @@
 
 游戏对于输入法的检测无法识别 Steam Deck 虚拟键盘的语言切换。
 
-建议启用插件框架后安装 ChatTwo 插件（测试版）替代游戏原本的聊天系统。
+建议启用插件框架后安装 ChatTwo 插件替代游戏原本的聊天系统。
 
 [返回顶部](#安装)\
 <a href="{{ site.github.baseurl }}/">返回 FAQ 主页</a>
