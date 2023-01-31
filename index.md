@@ -44,7 +44,7 @@
 <br>
 
 <div>
-如果您找不到正在寻找的内容，请加入我们的 <a href="https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=CZtWN&from=181074&biz=ka&shareSource=5">QQ频道</a> 或 <a href="https://jq.qq.com/?_wv=1027&k=f3cUajin">QQ群</a> 寻求帮助。
-本项目为国际服同项目的国服支持版，如有国际服相关问题请前往 <a href="https://discord.gg/3NMcUV5">Discord</a> 询问。
+如果您找不到正在寻找的内容，请加入我们的 <a href="https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=CZtWN&from=181074&biz=ka&shareSource=5">QQ频道</a> 或 <a href="https://jq.qq.com/?_wv=1027&k=f3cUajin">QQ群</a> 寻求帮助。  
+本项目为国际服同项目的国服支持版，如有国际服相关问题请前往 <a href="https://discord.gg/3NMcUV5">Discord</a> 询问。  
 无论在哪里，我们都欢迎提问并乐意帮助！
 </div>
