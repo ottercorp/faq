@@ -2,13 +2,13 @@
 
 ## 安装
 
-### 在您的 Steam Deck 上安装 Steam 版本的 FFXIV
+<!-- ### 在您的 Steam Deck 上安装 Steam 版本的 FFXIV
 
 要使用 XIVLauncherCN，FFXIV 免费试用版或完整版 FFXIV 必须安装在您的 Steam Deck 的 **内部存储器** 中。 您无需启动它，也无需创建 Steam 版本的 SE 帐户，只需安装即可。 如果您在 Steam 上没有 FFXIV，请安装免费试用版。
 
 要安装试用版，您需要在 Steam 商店中查找。 根据您之前是否在此帐户上安装了试用版，它可能会从搜索结果中隐藏。 在这种情况下，在桌面模式下寻找最终幻想系列中的 demo，或 [使用此链接进入试用版](https://store.steampowered.com/app/312060/FINAL_FANTASY_XIV_Online_Free_Trial/)。
 
-这是在游戏模式下查看游戏窗口所必需的。
+这是在游戏模式下查看游戏窗口所必需的。 -->
 
 ### 切换到桌面模式
 
