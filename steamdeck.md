@@ -56,11 +56,11 @@
 
 ### Q: 我的配置文件保存在哪里？
 
-配置文件保存到`~/.xlcore_cn`。
+配置文件保存在`~/.xlcore_cn`。
 
 ### Q: 游戏随机消失，休眠后无法恢复
 
-请确保 Steam 商店的 FFXIV 或 FFXIV 免费试用版已安装在您的 Steam Deck 的 **内部存储器** 中。
+请确保 Steam 商店的 [FINAL FANTASY XIV Online](https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/) 或 [FINAL FANTASY XIV Online Free Trial](https://store.steampowered.com/app/312060/FINAL_FANTASY_XIV_Online_Free_Trial/) 已安装在您的 Steam Deck 的 **内部存储器** 中。
 
 ### Q: 我的音频有爆裂声/失真
 
@@ -68,7 +68,7 @@
 
 ### Q: 我无法控制我的游戏
 
-更改 SteamOS 认为 FFXIV 正在运行的游戏的控制布局。 这意味着 “FINAL FANTASY XIV Online Free Trial”。
+请在 Steam 中更改 “FINAL FANTASY XIV Online Free Trial” 的控制器布局，**而不是**更改 XIVLauncher 的控制器布局。
 
 ### Q: Final Fantasy XIV 无法正常关闭 / Steam 一直认为 Final Fantasy XIV 正在运行
 
