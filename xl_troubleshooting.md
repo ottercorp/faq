@@ -84,7 +84,7 @@ Keep the shift key held down while you open XIVLauncher. Keep it held down until
 
 您可以在此处找到我们其他 Web 服务的源代码，国服可能并没有完全使用：<https://github.com/goatcorp/XLWebServices/tree/master/XLWebServices>
 
-1. `ffxiv.wang` - 这是 XIVLauncher CN 背后的私有 VPS，由 XIVLauncher CN 的维护者运行，用于代理和缓存 XIVLauncher 和 Dalamud 检查其版本的一些常用文件。它被用来减少到 GitHub 的网络连接数量，这样用户就不必担心达到速率限制和连接不良/被他们国家的防火墙阻止，然后根据需要将流量引导到 GitHub。 VPS 使用 国内的CDN/云服务 依次缓存数据，并且只有极少部分开发者可以通过控制台进行访问。
+1. `ffxiv.wang` - 这是 XIVLauncher CN 背后的私有 VPS，由 XIVLauncher CN 的维护者运行，用于代理和缓存 XIVLauncher 和 Dalamud 检查其版本的一些常用文件。它被用来减少到 GitHub 的网络连接数量，这样用户就不必担心达到速率限制和连接不良/被他们国家的防火墙阻止，然后根据需要将流量引导到 GitHub。 VPS 使用国内的CDN/云服务依次缓存数据，并且只有极少部分开发者可以通过控制台进行访问。此外，插件的使用情况和统计信息也会发送到本VPS，用于用户数据分析和制定相应的对策（敏感的用户信息将始终进行哈希处理）。
 2. `github.com`、`raw.githubusercontent.com` 和 `ottercorp.github.io` - 它是 GitHub。你现在正在访问的就是！
 3. `act1.ff.sdo.com` - 检查服务器状态的盛趣站点。
 <hr>
