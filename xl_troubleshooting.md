@@ -11,7 +11,7 @@
 - [插件/ XIVLauncher 是否在更新日可用？](#q-插件-xivlauncher-是否在更新日可用)
 - [我能在补丁上线之前使用 XIVLauncher 提前登录吗？](#q-我能在补丁上线之前使用-xivlauncher-提前登录吗)
 - [我在哪里可以找到我的 FFXIV 安装路径？](q-我在哪里可以找到我的-ffxiv-安装路径)
-- [如何将 FFXIV 和/或 XIVLauncher 文件放入XLCore_CN的目录？[Linux]](#q-如何将-FFXIV-和或-XIVLauncher-文件放入XLCore_CN的目录Linux) -->
+- [如何将 FFXIV 和/或 XIVLauncher 文件放入XLCore_CN的目录？[Linux]](#q-如何将-FFXIV-和或-XIVLauncher-文件放入XLCore_CN的目录Linux)
 - [如何将 FFXIV 和/或 XIVLauncher 文件进行迁移（如更换机器/目录）[Windows]](#q-如何将-ffxiv-和或-xivlauncher-文件进行迁移如更换机器目录windows)
 
 <!-- - [关于 Steam 支持有什么需要注意的事项？](#q-whats-the-deal-with-steam-support) -->
