@@ -453,9 +453,9 @@ InjectionDelayTriggers=KERNEL32.dll,USER32.dll
 
 ### Q: 我在安装了 TexTools 的情况下更新了游戏。如何修复崩溃问题？
 
-您会知道是否受到此问题的影响，因为官方启动器也会崩溃。这个问题不是由XIVLauncher引起的。
-
+您会知道是否受到此问题的影响，因为官方启动器也会崩溃。这个问题不是由XIVLauncher引起的。  
 备份您的模组文件，并[按照这个FAQ条目修复游戏](#q-can-i-repair-my-ffxiv-installation)。请注意，您的模组将被卸载。  
+
 ~~_*请不要使用tt，tt只会带来不幸——獭爹*_~~
 
 ---
