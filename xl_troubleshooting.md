@@ -6,39 +6,39 @@
 
 <!--(- [如何禁用自动登录？](#q-how-do-i-disable-autologin)-->
 
-- [XIVLauncher、Dalamud 和 Dalamud 插件是否安全可靠？](#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use)
-- [如何卸载 XIVLauncher？](#q-how-do-i-uninstall-xivlauncher)
-- [插件/ XIVLauncher 是否在更新日可用？](#q-will-pluginsxivlauncher-work-on-patch-day)
-- [我能在补丁上线之前使用 XIVLauncher 提前登录吗？](#q-can-i-use-xivlauncher-to-log-in-early-before-a-patch-goes-live)
-- [我在哪里可以找到我的 FFXIV 安装路径？](#q-where-can-i-find-my-ffxiv-installation)
+- [XIVLauncher、Dalamud 和 Dalamud 插件是否安全可靠？](#q-xivlauncherdalamud-和-dalamud-插件是否安全可靠)
+- [如何卸载 XIVLauncher？](#q-如何卸载-xivlauncher)
+- [插件/ XIVLauncher 是否在更新日可用？](#q-插件-xivlauncher-是否在更新日可用)
+- [我能在补丁上线之前使用 XIVLauncher 提前登录吗？](#q-我能在补丁上线之前使用-xivlauncher-提前登录吗)
+- [我在哪里可以找到我的 FFXIV 安装路径？](q-我在哪里可以找到我的-ffxiv-安装路径)
 
 <!-- - [如何将旧的 Wine 前缀中的 FFXIV 和/或 XIVLauncher 文件迁移到新的前缀中？ [Linux]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-wine-prefix-to-a-new-one-linux) -->
 
-- [如何将 FFXIV 和/或 XIVLauncher 文件从旧的安装迁移到新的安装？[Windows]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows)
+- [如何将 FFXIV 和/或 XIVLauncher 文件从旧的安装迁移到新的安装？[Windows]](#q-如何将-ffxiv-和或-xivlauncher-文件从旧的安装迁移到新的安装windows)
 
 <!-- - [关于 Steam 支持有什么需要注意的事项？](#q-whats-the-deal-with-steam-support) -->
 
 ### 故障排除
 
-- [打开程序时，我收到一条错误消息，提示 XIVLauncher 无法检查更新](#q-i-get-an-error-saying-xivlauncher-failed-to-check-for-updates-when-i-open-the-program)
-- [我在 Linux 上不断收到“XIVLauncher 失败，无法更新”的错误](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors)
-- [为什么游戏内插件 (Dalamud) 不起作用或插件不显示？](#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display)
-- [如何将 XIVLauncher 和 Dalamud 加入防病毒白名单，以免受到防病毒软件的干扰？](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone)
-- [XIVLauncher 不保存我的新密码 / 如何清除保存的密码？](#q-xivlauncher-isnt-saving-my-new-password--how-do-i-clear-my-saved-password)
-- [我认为 XIVLauncher 导致了蓝屏死机。哪些信息有助于缩小问题范围？](#q-i-think-xivlauncher-is-giving-me-a-blue-screen-of-death-what-information-would-help-narrow-this-down)
-- [如何解决启动时的崩溃问题？](#q-how-can-i-fix-crashes-on-startup)
-- [网络连接正常但是无法更新XIVLauncher_CN、Dalamud或者无法加载主库插件列表](#q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open)
-- [官方启动器无法工作 / XIVLauncher_CN 在检查更新时失败 / 无法验证补丁文件](#q-the-official-launcher-isnt-working--xivlauncher-failed-to-check-for-updates--patch-files-could-not-be-verified)
-- [如何在 RivaTuner/RTSS 中设置注入延迟](#q-how-to-set-an-injection-delay-in-rivatunerrtss)
-- [我可以修复我的FFXIV安装吗？](#q-can-i-repair-my-ffxiv-installation)
-- [在尝试更新FFXIV时，如何修复版本检查错误？](#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv)
-- [我在安装了 TexTools 的情况下更新了游戏。如何修复崩溃问题？](#q-i-updated-my-game-with-textools-mods-installed-how-do-i-fix-crashes)
+- [打开程序时，我收到一条错误消息，提示 XIVLauncher 无法检查更新](#q-打开程序时我收到一条错误消息提示-xivlauncher-无法检查更新)
+- [我在 Linux 上不断收到“XIVLauncher 失败，无法更新”的错误](#q-我在-linux-上不断收到xivlauncher-失败无法更新的错误)
+- [为什么游戏内插件 (Dalamud) 不起作用或插件不显示？](#q-为什么游戏内插件-dalamud-不起作用或插件不显示)
+- [如何将 XIVLauncher 和 Dalamud 加入防病毒白名单，以免受到防病毒软件的干扰？](#q-如何将-xivlauncher-和-dalamud-加入防病毒白名单以免受到防病毒软件的干扰)
+- [XIVLauncher 不保存我的新密码 / 如何清除保存的密码？](#q-xivlauncher-不保存我的新密码--如何清除保存的密码)
+- [我认为 XIVLauncher 导致了蓝屏死机。哪些信息有助于缩小问题范围？](#q-我认为-xivlauncher-导致了蓝屏死机哪些信息有助于缩小问题范围)
+- [如何解决启动时的崩溃问题？](#q-如何解决启动时的崩溃问题)
+- [网络连接正常但是无法更新XIVLauncher_CN、Dalamud或者无法加载主库插件列表](#q-网络连接正常但是无法更新xivlauncher_cndalamud或者无法加载主库插件列表)
+- [官方启动器无法工作 / XIVLauncher_CN 在检查更新时失败 / 无法验证补丁文件](#qq-官方启动器无法工作--xivlauncher_cn-在检查更新时失败--无法验证补丁文件)
+- [如何在 RivaTuner/RTSS 中设置注入延迟](#q-如何在-rivatunerrtss-中设置注入延迟)
+- [我可以修复我的FFXIV安装吗？](#q-我可以修复我的ffxiv安装吗)
+- [在尝试更新FFXIV时，如何修复版本检查错误？](#q-在尝试更新ffxiv时如何修复版本检查错误)
+- [我在安装了 TexTools 的情况下更新了游戏。如何修复崩溃问题？](#q-我在安装了-textools-的情况下更新了游戏如何修复崩溃问题)
 
 ### 其他
 
 <!-- [请勿以管理员身份运行 XIVLauncher](#do-not-run-xivlauncher-as-admin)\-->
-[XL 环境变量](#q-xl-environment-variables)\
-[WTFast 配置](#q-wtfast-config)
+- [XL 环境变量](#q-xl-环境变量)
+- [WTFast 配置](#q-wtfast-配置)
 
 <hr>
 
@@ -85,7 +85,7 @@ ReShade/GShade、ACT、Teamcraft 和其他社区项目一样。
 以下是关于 Dalamud 的一些附加细节。
 
 1. Dalamud **是一个代码注入框架**。按定义，它看起来和行为类似于病毒程序。您的杀毒软件甚至可能将其视为有害或潜在有害软件！您可以在 FAQ
-   中的[将 Dalamud 列入白名单](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone)，将 Dalamud 添加到白名单。**我们建议将其添加到白名单以获得最佳体验，但是您的计算环境可能不需要这样做
+   中的[将 Dalamud 列入白名单](#q-如何将-xivlauncher-和-dalamud-加入防病毒白名单以免受到防病毒软件的干扰)，将 Dalamud 添加到白名单。**我们建议将其添加到白名单以获得最佳体验，但是您的计算环境可能不需要这样做
    **。
 2. Dalamud 允许您读取游戏内存和网络数据包。 您可以将此行为与使用 ACT （Advanced Combat Tracker） 进行类比。
 3. Dalamud 框架自带修改游戏内存/Hook游戏客户端内存的能力和插件可以调用的函数。 然而，我们仅在官方 [Dalamud 游戏数据 API](https://goatcorp.github.io/Dalamud/api/index.html) 中提供对游戏数据的只读访问（在适用的情况下）。
@@ -253,7 +253,7 @@ XIVLauncher 无法打开有几个不同的原因。 这里有几个常见的。
 
 #### XIVLauncher 被防病毒/防火墙阻止
 
-有关如何将 XIVLauncher 列入白名单，请参阅[防病毒 FAQ 帖子](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone)，了解如何将 XIVLauncher 加入白名单。
+有关如何将 XIVLauncher 列入白名单，请参阅[防病毒 FAQ 帖子](#q-如何将-xivlauncher-和-dalamud-加入防病毒白名单以免受到防病毒软件的干扰)，了解如何将 XIVLauncher 加入白名单。
 
 <!-- #### GitHub Rate Limits
 If you've made a lot of queries to github recently, it's possible they may have rate-limited you. This is usually a combined effort of XIVLauncher, Dalamud, Dalamud plugin updates, Gshade, etc all being done in rapid succession, which shouldn't happen under normal circumstances.
@@ -496,7 +496,7 @@ InjectionDelayTriggers=KERNEL32.dll,USER32.dll
 
 ---
 
-### XL 环境变量
+### Q: XL 环境变量
 
 如果适用，您可以设置 `XL_PRERELEASE=true` 来测试 XIVLauncher 的新版本。**如果您在不了解其作用的情况下启用此选项，我们将不会在发生问题时提供帮助。**
 
