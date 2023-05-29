@@ -19,7 +19,6 @@
 ### 故障排除
 
 - [打开程序时，我收到一条错误消息，提示 XIVLauncher 无法检查更新](#q-打开程序时我收到一条错误消息提示-xivlauncher-无法检查更新)
-- [我在 Linux 上不断收到“XIVLauncher 失败，无法更新”的错误](#q-我在-linux-上不断收到xivlauncher-失败无法更新的错误)
 - [为什么游戏内插件 (Dalamud) 不起作用或插件不显示？](#q-为什么游戏内插件-dalamud-不起作用或插件不显示)
 - [如何将 XIVLauncher 和 Dalamud 加入防病毒白名单，以免受到防病毒软件的干扰？](#q-如何将-xivlauncher-和-dalamud-加入防病毒白名单以免受到防病毒软件的干扰)
 - [XIVLauncher 不保存我的新密码 / 如何清除保存的密码？](#q-xivlauncher-不保存我的新密码--如何清除保存的密码)
@@ -250,21 +249,6 @@ If you've made a lot of queries to github recently, it's possible they may have 
 #### 仍未解决？
 
 为了获得最快的支持，请前往 QQ频道 并在 #xivlauncher 问答帮助 频道中发布您遇到的错误、屏幕截图（如果可能）以及可以在 `Roaming`中 找到的 `output.log` 文件。
-<hr>
-
-### Q: 我在 Linux 上不断收到“XIVLauncher 失败，无法更新”的错误
-
-在一些较新的 Linux 发行版上，已禁用了 TLS 1.0 和 1.1。这会导致 Wine 和 FFXIV/XIVLauncher 出现问题，因为它们可能无法正确协商 TLS。
-
-您可以通过将 `dssenh` DLL 覆盖设置为 native 来解决此问题（作为环境变量或在 Lutris 中设置 `dssenh=n`）。
-
-这也已添加到 xivlauncher Lutris 脚本中。
-
-感谢 kainz0r 提供的提示！
-![示例](images/LinuxConfigScreenshot.png)
-
-在 **Fedora** 上？您需要运行 `sudo update-crypto-policies --set DEFAULT:FEDORA32` 以放宽安全策略，因为 Fedora 33 及更高版本的 SSL/TLS 设置更为严格。如果 `FEDORA32`
-不起作用，请尝试：`sudo update-crypto-policies --set LEGACY`。
 <hr>
 
 ### Q: 为什么游戏内插件 (Dalamud) 不起作用或插件不显示？
