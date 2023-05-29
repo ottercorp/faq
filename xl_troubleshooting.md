@@ -11,10 +11,8 @@
 - [插件/ XIVLauncher 是否在更新日可用？](#q-插件-xivlauncher-是否在更新日可用)
 - [我能在补丁上线之前使用 XIVLauncher 提前登录吗？](#q-我能在补丁上线之前使用-xivlauncher-提前登录吗)
 - [我在哪里可以找到我的 FFXIV 安装路径？](q-我在哪里可以找到我的-ffxiv-安装路径)
-
-<!-- - [如何将旧的 Wine 前缀中的 FFXIV 和/或 XIVLauncher 文件迁移到新的前缀中？ [Linux]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-wine-prefix-to-a-new-one-linux) -->
-
-- [如何将 FFXIV 和/或 XIVLauncher 文件从旧的安装迁移到新的安装？[Windows]](#q-如何将-ffxiv-和或-xivlauncher-文件从旧的安装迁移到新的安装windows)
+- [如何将 FFXIV 和/或 XIVLauncher 文件放入XLCore_CN的目录？[Linux]](#q-如何将-FFXIV-和或-XIVLauncher-文件放入XLCore_CN的目录Linux) -->
+- [如何将 FFXIV 和/或 XIVLauncher 文件进行迁移（如更换机器/目录）[Windows]](#q-如何将-ffxiv-和或-xivlauncher-文件进行迁移如更换机器目录windows)
 
 <!-- - [关于 Steam 支持有什么需要注意的事项？](#q-whats-the-deal-with-steam-support) -->
 
@@ -187,45 +185,27 @@ FFXIV 的安装位置取决于您是使用官方安装程序还是 Steam，安�
 
 <hr>
 
-<!--
-### Q: 如何将 FFXIV 和/或 XIVLauncher 文件从旧的 Wine 前缀迁移到新的前缀？\[Linux\]
 
-在创建了新的基于 XIVLauncher 的前缀之后，您可以从旧的 FFXIV 前缀中复制以下文件：
+### Q: 如何将 FFXIV 和/或 XIVLauncher 文件放入XLCore_CN的目录？\[Linux\]
 
-#### 将 FFXIV 安装从一个前缀复制到另一个前缀（或根据需要移动/创建符号链接）
+相关目录如下所示，你可以从Windows系统的机器中将文件复制进对应目录：
 
-- 从此处复制：`~/Games/<旧前缀>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
-- 复制到：
-  - (Lutris) `~/Games/<新前缀>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
-  - (Proton) `~/.steam/steam/steamapps/steamapps/common/FINAL FANTASY XIV Online`
-  - (XLCore) `~/.xlcore/ffxiv`
+#### 最终幻想14游戏文件
+- (XLCore) `~/.xlcore_cn/ffxiv`
 
-#### 复制用户/角色设置
+#### 用户/角色设置
+- (XLCore) `~/.xlcore_cn/ffxivConfig`
 
-- 从此处复制：`~/Games/<旧前缀>/drive_c/users/<用户名>/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
-- 复制到：
-  - (Lutris) `~/Games/<新前缀>/drive_c/users/<用户名>/Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
-  - (Proton) `~/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/users/steamuser/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
-  - (XLCore) `~/.xlcore/ffxivConfig`
+#### XIVLauncher 配置（请重新安装插件）
+- (XLCore) `~/.xlcore_cn/pluginConfigs`
 
-#### 复制 XIVLauncher 配置（请重新安装插件）
-
-- 从此处复制：`~/Games/<旧前缀>/drive_c/users/<用户名>/Application Data/XIVLauncher/pluginConfigs`
-- 复制到：
-  - (Lutris) `~/Games/<新前缀>/drive_c/users/<用户名>/AppData/Roaming/XIVLauncher/pluginConfigs`
-  - (XLCore) `~/.xlcore/pluginConfigs`
-
-### 复制其他文件和程序到 Wine 前缀
-
-- 从此处复制：`~/Games/<旧前缀>/drive_c`
-- 复制到：
-  - (Lutris) `~/Games/<新前缀>/drive_c`
-  - (XLCore) `~/.xlcore/wineprefix/drive_c`
+### 复制其他文件和程序
+- (XLCore) `~/.xlcore_cn/wineprefix/drive_c`
 
 ---
--->
 
-### Q: 如何将 FFXIV 和/或 XIVLauncher 文件从旧的安装迁移到新的安装？\[Windows\]
+
+### Q: 如何将 FFXIV 和/或 XIVLauncher 文件进行迁移（如更换机器/目录）？\[Windows\]
 
 #### 复制 FFXIV 安装文件
 
