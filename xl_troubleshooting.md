@@ -34,6 +34,7 @@
 ### 其他
 
 <!-- [请勿以管理员身份运行 XIVLauncher](#do-not-run-xivlauncher-as-admin)\-->
+
 - [XL 环境变量](#q-xl-环境变量)
 - [WTFast 配置](#q-wtfast-配置)
 
@@ -53,11 +54,11 @@ ReShade/GShade、ACT、Teamcraft 和其他社区项目一样。
 #### 一般免责声明
 
 在游戏中，您不应提及使用 XIVLauncher 或插件，就像您不应承认使用*任何*第三方修改一样，因为从技术上讲，这违反了《最终幻想XIV》的服务条款。我们没有收到任何用户因使用 XIVLauncher、Dalamud 或 Dalamud
-插件而被封禁的报告，但仍然建议您谨慎使用。所有官方支持的插件都经过代码审查，以确保它们不会利用游戏或以任何方式发送无效数据到游戏服务器。**我们无法为来自第三方插件存储库的非官方插件提供支持。您使用这些插件时需要自行承担风险。
-**
+插件而被封禁的报告，但仍然建议您谨慎使用。所有官方支持的插件都经过代码审查，以确保它们不会利用游戏或以任何方式发送无效数据到游戏服务器。
+**我们无法为来自第三方插件存储库的非官方插件提供支持。您使用这些插件时需要自行承担风险。**
 
-此外，XIVLauncher 完全是一个__用爱发电项目__
-。我们之所以这样做是因为我们觉得有趣，并非因为有报酬。这意味着我们始终尽力以专业和积极的态度迅速响应，但同时也意味着我们提供给您的所有内容都基于“尽力而为”的原则 -
+此外，XIVLauncher 完全是一个**用爱发电项目**。
+我们之所以这样做是因为我们觉得有趣，并非因为有报酬。这意味着我们始终尽力以专业和积极的态度迅速响应，但同时也意味着我们提供给您的所有内容都基于“尽力而为”的原则 -
 维护这样的软件需要大量的时间，而且我们也只是普通人 :)
 
 如果您对 XIVLauncher、Dalamud 或其中插件有任何疑问，请随时在我们的 [QQ频道](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=CZtWN&from=181074&biz=ka&shareSource=5)
@@ -184,25 +185,27 @@ FFXIV 的安装位置取决于您是使用官方安装程序还是 Steam，安�
 
 <hr>
 
-
 ### Q: 如何将 FFXIV 和/或 XIVLauncher 文件放入XLCore_CN的目录？\[Linux\]
 
 相关目录如下所示，你可以从Windows系统的机器中将文件复制进对应目录：
 
 #### 最终幻想14游戏文件
+
 - (XLCore) `~/.xlcore_cn/ffxiv`
 
 #### 用户/角色设置
+
 - (XLCore) `~/.xlcore_cn/ffxivConfig`
 
 #### XIVLauncher 配置（请重新安装插件）
+
 - (XLCore) `~/.xlcore_cn/pluginConfigs`
 
 ### 复制其他文件和程序
+
 - (XLCore) `~/.xlcore_cn/wineprefix/drive_c`
 
 ---
-
 
 ### Q: 如何将 FFXIV 和/或 XIVLauncher 文件进行迁移（如更换机器/目录）？\[Windows\]
 
@@ -410,8 +413,9 @@ Runtime <https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-
     - Google 提供 8.8.8.8 和 8.8.4.4
     - CloudFlare 提供 1.1.1.1 和 1.0.0.1
     - Level3 提供 4.2.2.2 和 4.2.2.4
-- 检查加速器设置或者代理设置  
-    - 参考[网络连接正常但是无法更新XIVLauncher_CN、Dalamud或者无法加载主库插件列表](#q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open)
+- 检查加速器设置或者代理设置
+  -
+  参考[网络连接正常但是无法更新XIVLauncher_CN、Dalamud或者无法加载主库插件列表](#q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open)
 - 从另一台计算机复制可正常运行的 FFXIV 安装文件
     - 最简单的方法是将文件夹复制到一个大容量的闪存驱动器或外部硬盘上。
     - 如果您熟悉设置 Windows 共享，您还可以从一台可正常工作的计算机共享驱动器/文件夹，然后通过网络将其复制到您的计算机。
@@ -454,7 +458,7 @@ InjectionDelayTriggers=KERNEL32.dll,USER32.dll
 ### Q: 我在安装了 TexTools 的情况下更新了游戏。如何修复崩溃问题？
 
 您会知道是否受到此问题的影响，因为官方启动器也会崩溃。这个问题不是由XIVLauncher引起的。  
-备份您的模组文件，并[按照这个FAQ条目修复游戏](#q-can-i-repair-my-ffxiv-installation)。请注意，您的模组将被卸载。  
+备份您的模组文件，并[按照这个FAQ条目修复游戏](#q-can-i-repair-my-ffxiv-installation)。请注意，您的模组将被卸载。
 
 ~~_*请不要使用tt，tt只会带来不幸——獭爹*_~~
 
