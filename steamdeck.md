@@ -18,7 +18,7 @@
 
 打开 “Discover Store”，搜索 “XIVLauncherCN” ，然后安装。
 
-**可选：**如果您想将 Final Fantasy XIV 安装到您的 Deck 的 MicroSD 卡或默认以外的任何文件夹 (`~/.xlcore_cn/ffxiv`)，您还需要 Discover Store 中的 `Flatseal`。
+**可选：** 如果您想将 Final Fantasy XIV 安装到您的 Deck 的 MicroSD 卡或默认以外的任何文件夹 (`~/.xlcore_cn/ffxiv`)，您还需要 Discover Store 中的 `Flatseal`。
 
 ### 拷贝国服游戏文件
 
@@ -30,7 +30,7 @@
 
 在 Steam 中右键单击 XIVLauncher，选择“属性”，然后
   - 将“启动目录”替换为： `/home/deck` 或其他的非只读目录，国服的启动器需要运行在有写入权限的目录来进行登陆二维码的下载。
-  - 将“启动选项”替换为： `XL_SECRET_PROVIDER=FILE %command% run --parent-expose-pids --parent-share-pids --parent-pid=1 --branch=stable --arch=x86_64 --command=xivlauncher cn.ottercorp.xivlaunchercn` 请注意，在此配置下，XIVLauncher 会将您的密码保存到您的 Steam Deck 中的文件中，因为 Valve 默认没有提供更安全的密码存储方式。 如果这对您来说是个问题，请从上面的行中省略 `XL_SECRET_PROVIDER=FILE` - 在这种情况下，XIVLauncher 将无法保存您的密码。
+  - 将“启动选项”替换为： `XL_SECRET_PROVIDER=FILE %command% run --parent-expose-pids --parent-share-pids --parent-pid=1 --branch=stable --arch=x86_64 --command=xivlauncher cn.ottercorp.xivlaunchercn` 请注意，在此配置下，XIVLauncher 会将您的自动登陆凭据保存到您的 Steam Deck 中的文件中，因为 Valve 默认没有提供更安全的密码存储方式。 如果这对您来说是个问题，请从上面的行中省略 `XL_SECRET_PROVIDER=FILE` - 在这种情况下，XIVLauncher 将无法保存您的自动登陆凭据。
 
 **不要为 XIVLauncher 设置兼容模式。** XIVLauncher 是本机 Linux 应用程序。 为它设置兼容性会破坏它。
 
@@ -85,12 +85,6 @@
 ### Q: 我在设置界面的文本框只能够输入，无法删除已有的内容
 
 由于 Steam 文本输入 API 的 BUG，请选中内容高亮后进行输入替换。
-
-### Q: 我无法在游戏内聊天框中输入中文（中文字符变成问号）
-
-游戏对于输入法的检测无法识别 Steam Deck 虚拟键盘的语言切换。
-
-建议启用插件框架后安装 ChatTwo 插件替代游戏原本的聊天系统。
 
 [返回顶部](#安装)\
 <a href="{{ site.github.baseurl }}/">返回 FAQ 主页</a>
