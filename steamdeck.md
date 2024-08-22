@@ -62,13 +62,17 @@
 
 请确保 Steam 商店的 [FINAL FANTASY XIV Online](https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/) 或 [FINAL FANTASY XIV Online Free Trial](https://store.steampowered.com/app/312060/FINAL_FANTASY_XIV_Online_Free_Trial/) 已安装在您的 Steam Deck 的 **内部存储器** 中。
 
+### Q: FINAL FANTASY XIV Online (或 Free Trial) 已在所在的 Steam 商店下架
+
+请打开 `~/.xlcore_cn/launcher.ini` 并将 `IsIgnoringSteam` 设置为 `true`。
+
 ### Q: 我的音频有爆裂声/失真
 
 尝试将 “PULSE_LATENCY_MSEC=60” 添加到 Steam 启动选项的开头。
 
 ### Q: 我无法控制我的游戏
 
-请在 Steam 中更改 “FINAL FANTASY XIV Online Free Trial” 的控制器布局，**而不是**更改 XIVLauncher 的控制器布局。
+请在 Steam 中更改 “FINAL FANTASY XIV Online Free Trial” 的控制器布局，**而不是** 更改 XIVLauncher 的控制器布局。
 
 ### Q: Final Fantasy XIV 无法正常关闭 / Steam 一直认为 Final Fantasy XIV 正在运行
 
@@ -85,6 +89,7 @@
 ### Q: 我在设置界面的文本框只能够输入，无法删除已有的内容
 
 由于 Steam 文本输入 API 的 BUG，请选中内容高亮后进行输入替换。
+
 
 [返回顶部](#安装)\
 <a href="{{ site.github.baseurl }}/">返回 FAQ 主页</a>
