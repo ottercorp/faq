@@ -33,7 +33,7 @@
 
 <a href="https://ottercorp.github.io/faq/development" class="btnm">插件开发相关帮助</a>
 
-<a href="https://ottercorp.github.io/faq/steamdeck" class="btnm">Steam Deck 相关帮助</a>
+<a href="https://ottercorp.github.io/faq/steamdeck" class="btnm">Steam Deck & Linux 相关帮助</a>
   
 <!-- <a href="https://goatcorp.github.io/faq/mobile_otp" class="btnm">Authenticator App Guide</a> -->
 
