@@ -83,7 +83,7 @@ sh -c "$(curl -fsSL https://file.bluefissure.com/d/FFXIV/Dalamud/xlcore/xlm/inst
 
 ### Q: 我的配置文件保存在哪里？
 
-配置文件保存到 `~/.xlcore`，除非使用 flatpak 安装运行的 Steam，此时配置文件保存到 `~/.var/app/com.valvesoftware.Steam/.xlcore`。
+配置文件保存到 `~/.xlcore_cn`，除非使用 flatpak 安装运行的 Steam，此时配置文件保存到 `~/.var/app/com.valvesoftware.Steam/.xlcore_cn`。
 
 ### Q: 游戏随机消失，休眠后无法恢复
 
@@ -93,7 +93,7 @@ sh -c "$(curl -fsSL https://file.bluefissure.com/d/FFXIV/Dalamud/xlcore/xlm/inst
 
 您可以：
 - 打开 `~/.xlcore_cn/launcher.ini` 并将 `IsIgnoringSteam` 设置为 `true`。
-- 添加 `XL_APPID=2805730` 到运行命令的最前强制指定使用 Proton 9.0 来运行。
+- 添加 `XL_APPID=2805730` 到额外环境变量来强制指定使用 Proton 9.0 来运行游戏。
 - 如果您将 XIVLauncherCN 安装为兼容工具（XLM）：您可以使用其他任意没有反作弊（会影响 Dalamud 注入）的游戏，将其兼容工具强制设定为 XLM。
 
 ### Q: 我的音频有爆裂声/失真
