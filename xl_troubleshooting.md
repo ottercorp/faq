@@ -24,8 +24,8 @@
 - [XIVLauncher 不保存我的新密码 / 如何清除保存的密码？](#q-xivlauncher-不保存我的新密码--如何清除保存的密码)
 - [我认为 XIVLauncher 导致了蓝屏死机。哪些信息有助于缩小问题范围？](#q-我认为-xivlauncher-导致了蓝屏死机哪些信息有助于缩小问题范围)
 - [如何解决启动时的崩溃问题？](#q-如何解决启动时的崩溃问题)
-- [网络连接正常但是无法更新XIVLauncher_CN、Dalamud或者无法加载主库插件列表](#q-网络连接正常但是无法更新xivlauncher_cndalamud或者无法加载主库插件列表)
-- [官方启动器无法工作 / XIVLauncher_CN 在检查更新时失败 / 无法验证补丁文件](#qq-官方启动器无法工作--xivlauncher_cn-在检查更新时失败--无法验证补丁文件)
+- [网络连接正常但是无法更新XIVLauncherCN、Dalamud或者无法加载主库插件列表](#q-网络连接正常但是无法更新XIVLauncherCNdalamud或者无法加载主库插件列表)
+- [官方启动器无法工作 / XIVLauncherCN 在检查更新时失败 / 无法验证补丁文件](#q-官方启动器无法工作--XIVLauncherCN-在检查更新时失败--无法验证补丁文件)
 - [如何在 RivaTuner/RTSS 中设置注入延迟](#q-如何在-rivatunerrtss-中设置注入延迟)
 - [我可以修复我的FFXIV安装吗？](#q-我可以修复我的ffxiv安装吗)
 - [在尝试更新FFXIV时，如何修复版本检查错误？](#q-在尝试更新ffxiv时如何修复版本检查错误)
@@ -106,7 +106,7 @@ ReShade/GShade、ACT、Teamcraft 和其他社区项目一样。
 
 您可以在[此处](https://github.com/ottercorp/XLWebServices-fastapi)找到我们其他 Web 服务的源代码，国服可能并没有完全使用：
 
-1. `ffxiv.wang` - 这是 XIVLauncher CN 背后的私有 VPS，由 XIVLauncher_CN 的维护者运行，用于代理和缓存 XIVLauncher 和 Dalamud 检查其版本的一些常用文件。它被用来减少到 GitHub
+1. `ffxiv.wang` - 这是 XIVLauncher CN 背后的私有 VPS，由 XIVLauncherCN 的维护者运行，用于代理和缓存 XIVLauncher 和 Dalamud 检查其版本的一些常用文件。它被用来减少到 GitHub
    的网络连接数量，这样用户就不必担心达到速率限制和连接不良/被他们国家的防火墙阻止，然后根据需要将流量引导到 GitHub。 VPS
    使用国内的CDN/云服务依次缓存数据，并且只有极少部分开发者可以通过控制台进行访问。此外，插件的使用情况和统计信息也会发送到本VPS，用于用户数据分析和制定相应的对策（敏感的用户信息将始终进行哈希处理）。
 2. `github.com`、`raw.githubusercontent.com` 和 `ottercorp.github.io` - 这是 GitHub。
@@ -124,7 +124,7 @@ ReShade/GShade、ACT、Teamcraft 和其他社区项目一样。
 
 设置/插件和其他用户配置
 `%appdata%\XIVLauncher`（国际服）
-`安装目录\Roaming\`（国服）
+`%appdata%\XIVLauncherCN`（国服）
 
 <hr>
 
@@ -133,9 +133,9 @@ ReShade/GShade、ACT、Teamcraft 和其他社区项目一样。
 请记住，许多开发者有学业/工作/两者兼顾，并且分布在各种时区。更新将在可以进行时进行。"XL 随时可能消失" 的观念仍然存在。**我们无法预测任何可能的补丁需要多少工作/时间，也无法给出任何预计时间 - 这是不可能的。**
 请不要催促我们，我们在补丁日需要提供更多的支持，这样我们就无法解决问题。
 
-#### XIVLauncher_CN：
+#### XIVLauncherCN：
 
-- 用户不需要采取任何预防措施来保证 XIVLauncher 与新补丁的兼容性。
+- 用户不需要采取任何预防措施来保证 XIVLauncherCN 与新补丁的兼容性。
 - 除非 SE 决定彻底更改身份验证或补丁下载/更新的工作方式，否则启动器将在补丁日正常工作。
 
 #### Dalamud：
@@ -185,7 +185,7 @@ FFXIV 的安装位置取决于您是使用官方安装程序还是 Steam，安�
 
 <hr>
 
-### Q: 如何将 FFXIV 和/或 XIVLauncher 文件放入XLCore_CN的目录？\[Linux\]
+### Q: 如何将 FFXIV 和/或 XIVLauncherCN 文件放入 XLCoreCN 的目录？\[Linux\]
 
 相关目录如下所示，你可以从Windows系统的机器中将文件复制进对应目录：
 
@@ -216,7 +216,7 @@ FFXIV 的安装位置取决于您是使用官方安装程序还是 Steam，安�
 **注意**：如果您安装了 TexTools，则不应执行此操作。或者至少在执行之前，请确保还原索引/修复游戏，因为 TexTools 可能会破坏您的客户端。
 
 - 复制用户/角色设置：`\上海数龙科技有限公司\最终幻想XIV\game\My Games`
-- 复制 XIVLauncher 配置（请重新安装插件）：`[XIVLauncher_CN安装目录]\Roaming\pluginConfigs`
+- 复制 XIVLauncher 配置（请重新安装插件）：`%appdata%\XIVLauncherCN\pluginConfigs`
     - **注意**：请不要复制其他配置或文件夹，因为这些是特定于该计算机的。您应该根据每台计算机进行设置。
 
 ---
@@ -276,8 +276,8 @@ If you've made a lot of queries to github recently, it's possible they may have 
 
 请将以下文件夹添加到例外（或白名单）列表中：
 
-- `(XIVLauncher_CN安装路径)`
-- `%AppData%\XIVLauncher`
+- `(XIVLauncherCN安装路径)`
+- `%AppData%\XIVLauncherCN`
 - 您的 FFXIV 游戏安装文件夹
 
 之后请重新启动计算机。
@@ -286,23 +286,23 @@ If you've made a lot of queries to github recently, it's possible they may have 
 
 #### 重置 Dalamud
 
-您可能还需要重置 Dalamud（插件系统）。要重置 Dalamud，请删除 `(XIVLauncher_CN安装路径)\Roaming\addon\Hooks` 文件夹。
+您可能还需要重置 Dalamud（插件系统）。要重置 Dalamud，请删除 `(XIVLauncherCN安装路径)\Roaming\addon\Hooks` 文件夹。
 
 #### 额外的例外情况
 
 如果可能，请尝试将以下文件加入白名单：
 
 - `(您的 FFXIV 安装路径)\game\ffxiv_dx11.exe`
-- `(XIVLauncher_CN安装路径)\XIVLauncherCN.exe`
-- `(XIVLauncher_CN安装路径)\app-X.Y.Z\XIVLauncher.exe`
+- `(XIVLauncherCN安装路径)\XIVLauncherCN.exe`
+- `(XIVLauncherCN安装路径)\app-X.Y.Z\XIVLauncher.exe`
     - **注意**：将 X.Y.Z 替换为最新可用版本。**每次启动器更新都会更改！**
-- `(XIVLauncher_CN安装路径)\Roaming\addon\Hooks\W.X.Y.Z\Dalamud.Injector.exe`
+- `(XIVLauncherCN安装路径)\Roaming\addon\Hooks\W.X.Y.Z\Dalamud.Injector.exe`
     - **注意**：将 W.X.Y.Z 替换为最新可用版本。**每次 Dalamud 更新都会更改！**
-- `(XIVLauncher_CN安装路径)\Roaming\addon\Hooks\W.X.Y.Z\DalamudCrashHandler.exe`
+- `(XIVLauncherCN安装路径)\Roaming\addon\Hooks\W.X.Y.Z\DalamudCrashHandler.exe`
     - **注意**：将 X.Y.Z 替换为最新可用版本。**每次启动器更新都会更改！**
-- `(XIVLauncher_CN安装路径)\Roaming\addon\Hooks\W.X.Y.Z\Dalamud.dll`
+- `(XIVLauncherCN安装路径)\Roaming\addon\Hooks\W.X.Y.Z\Dalamud.dll`
     - **注意**：将 W.X.Y.Z 替换为最新可用版本。**每次 Dalamud 更新都会更改！**
-- `(XIVLauncher_CN安装路径)\Roaming\runtime`
+- `(XIVLauncherCN安装路径)\Roaming\runtime`
 
 #### 个别防病毒软件的操作指南
 
@@ -359,22 +359,22 @@ XIVLauncher 将用户凭据保存在 Windows 凭据管理器中。它们将被�
 Runtime <https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer>。
 
 如果问题仍然存在，请加入我们的[QQ频道](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=CZtWN&from=181074&biz=ka&shareSource=5) 寻求帮助。  
-**注意：请确保自己没有使用任何第三方插件、没有在使用Dalamud/XIVLauncher_CN前执行特定操作**
+**注意：请确保自己没有使用任何第三方插件、没有在使用Dalamud/XIVLauncherCN前执行特定操作**
 
 ---
 
-### Q: 网络连接正常但是无法更新XIVLauncher_CN、Dalamud或者无法加载主库插件列表
+### Q: 网络连接正常但是无法更新XIVLauncherCN、Dalamud或者无法加载主库插件列表
 
 这是一个加速器或者代理设置问题。
 
 #### 如果你使用了加速器
 
 已知部分加速器会导致网络问题，如`UU加速器`。请在使用加速器的时候尽量使用路由模式。  
-此外，多数加速器不兼容最终幻想14（国服）和 FINAL FANTASY XIV（国际服）分别加速，请不要在使用国际服加速线路的时候，在国服使用XIVLauncher_CN或Dalamud。
+此外，多数加速器不兼容最终幻想14（国服）和 FINAL FANTASY XIV（国际服）分别加速，请不要在使用国际服加速线路的时候，在国服使用XIVLauncherCN或Dalamud。
 
 #### 代理问题
 
-代理问题不属于我们的支持项目，唯一能够提供的信息是：XIVLauncher_CN、Dalamud和主库插件列表均不需要使用代理，我们的服务会自动将国内的请求分流到国内主干网CDN上。  
+代理问题不属于我们的支持项目，唯一能够提供的信息是：XIVLauncherCN、Dalamud和主库插件列表均不需要使用代理，我们的服务会自动将国内的请求分流到国内主干网CDN上。  
 如果你遇到了网络问题且没有使用加速器，请在Dalamud设置中关闭使用自定义代理，并且重启游戏。
 
 #### 我们的服务故障
@@ -389,15 +389,9 @@ Runtime <https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-
 正常使用的情况下，99.99%以上都不会触发到防火墙。  
 原则上我们不提供被防火墙禁止后的解封。
 
-<!--
-我们可以推荐 [MUDFISH](https://mudfish.net) 作为游玩 FFXIV 的 VPN，它价格便宜且似乎工作可靠。如果在更新补丁时出现错误，我们推荐使用 [ProtonVPN](https://protonvpn.com/)
-或 [Cloudflare WARP](https://1.1.1.1/)。
-
-要进行故障排除，您可以对 SE 的日本登录服务器 `frontier.ffxiv.com` 进行 Ping 测试。
--->
 ---
 
-### Q: 官方启动器无法工作 / XIVLauncher_CN 在检查更新时失败 / 无法验证补丁文件
+### Q: 官方启动器无法工作 / XIVLauncherCN 在检查更新时失败 / 无法验证补丁文件
 
 最有可能的情况是您的网络连接或连接到盛趣服务器和/或我们的在线服务出现了问题。但是，XIVLauncher 实际上只能获得“出现了问题”的信息。
 
@@ -415,7 +409,7 @@ Runtime <https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-
     - Level3 提供 4.2.2.2 和 4.2.2.4
 - 检查加速器设置或者代理设置
   -
-  参考[网络连接正常但是无法更新XIVLauncher_CN、Dalamud或者无法加载主库插件列表](#q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open)
+  参考[网络连接正常但是无法更新XIVLauncherCN、Dalamud或者无法加载主库插件列表](#q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open)
 - 从另一台计算机复制可正常运行的 FFXIV 安装文件
     - 最简单的方法是将文件夹复制到一个大容量的闪存驱动器或外部硬盘上。
     - 如果您熟悉设置 Windows 共享，您还可以从一台可正常工作的计算机共享驱动器/文件夹，然后通过网络将其复制到您的计算机。
@@ -440,7 +434,7 @@ InjectionDelayTriggers=KERNEL32.dll,USER32.dll
 ### Q: 我可以修复我的FFXIV安装吗？
 
 暂时不可以，但是你可以检查哪个文件出错，并让朋友拷贝给你。
-如果你想要使用这个功能，在XIVLauncher_CN中，右键点击“登录”并选择“修复游戏文件”。
+如果你想要使用这个功能，在 XIVLauncherCN 中，右键点击“登录”并选择“修复游戏文件”。
 
 **请不要使用官方启动器中的修复功能！**它只会修复官方登录器**。
 
@@ -460,7 +454,7 @@ InjectionDelayTriggers=KERNEL32.dll,USER32.dll
 您会知道是否受到此问题的影响，因为官方启动器也会崩溃。这个问题不是由XIVLauncher引起的。  
 备份您的模组文件，并[按照这个FAQ条目修复游戏](#q-can-i-repair-my-ffxiv-installation)。请注意，您的模组将被卸载。
 
-~~_*请不要使用tt，tt只会带来不幸——獭爹*_~~
+~~_*请不要使用tt，tt只会带来不幸*_~~
 
 ---
 
